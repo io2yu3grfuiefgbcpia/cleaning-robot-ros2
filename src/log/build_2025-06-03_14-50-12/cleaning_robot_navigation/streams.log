@@ -1,0 +1,33 @@
+[4.068s] Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation': PYTHONPATH=/home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cleaning_robot_navigation build --build-base /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build install --record /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/install.log --single-version-externally-managed install_data
+[4.798s] running egg_info
+[4.800s] creating ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info
+[4.802s] writing ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/PKG-INFO
+[4.804s] writing dependency_links to ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/dependency_links.txt
+[4.810s] writing entry points to ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/entry_points.txt
+[4.810s] writing requirements to ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/requires.txt
+[4.810s] writing top-level names to ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/top_level.txt
+[4.810s] writing manifest file '../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+[4.825s] reading manifest file '../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+[4.825s] writing manifest file '../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+[4.826s] running build
+[4.826s] running build_py
+[4.841s] creating /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build
+[4.841s] creating /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build/lib
+[4.841s] creating /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation
+[4.842s] copying cleaning_robot_navigation/__init__.py -> /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation
+[4.843s] running install
+[4.843s] running install_lib
+[4.844s] creating /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation
+[4.846s] copying /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation/__init__.py -> /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation
+[4.846s] byte-compiling /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation/__init__.py to __init__.cpython-310.pyc
+[4.846s] running install_data
+[4.847s] creating /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/share/ament_index
+[4.848s] creating /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/share/ament_index/resource_index
+[4.848s] creating /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+[4.848s] copying resource/cleaning_robot_navigation -> /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+[4.849s] copying package.xml -> /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/share/cleaning_robot_navigation
+[4.853s] running install_egg_info
+[4.855s] Copying ../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info to /home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation-0.0.0-py3.10.egg-info
+[4.858s] running install_scripts
+[4.912s] writing list of installed files to '/home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/install.log'
+[5.009s] Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/src/install/cleaning_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cleaning_robot_navigation build --build-base /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/build install --record /home/yys/cleaning_robot_ws/src/build/cleaning_robot_navigation/install.log --single-version-externally-managed install_data

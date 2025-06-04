@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/robot_state_publisher.launch.py
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/gazebo.launch.py
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/cleaning_robot_complete.launch.py
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//urdf
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//urdf/cleaning_robot.urdf.xacro
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//config
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//config/cleaning_robot.rviz
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//meshes
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/package_run_dependencies/cleaning_robot_description
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/parent_prefix_path/cleaning_robot_description
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/path.sh
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/path.dsv
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.bash
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.sh
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.zsh
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.dsv
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.dsv
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/packages/cleaning_robot_description
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/cmake/cleaning_robot_descriptionConfig.cmake
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/cmake/cleaning_robot_descriptionConfig-version.cmake
+-- Up-to-date: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.xml

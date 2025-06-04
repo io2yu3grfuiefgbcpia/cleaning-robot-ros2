@@ -1,0 +1,1 @@
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/ament_cmake_python/lslidar_msgs/lslidar_msgs.egg-info/SOURCES.txt

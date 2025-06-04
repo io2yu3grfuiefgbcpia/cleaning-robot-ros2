@@ -1,0 +1,84 @@
+[0.073s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver
+[0.085s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.085s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.268s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.270s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.377s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.383s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.792s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.529s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.533s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.533s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[10.051s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.055s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.059s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.503s] -- Found Qhull version 8.0.2
+[12.891s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.098s] -- looking for PCL_COMMON
+[14.098s] -- looking for PCL_KDTREE
+[14.098s] -- looking for PCL_OCTREE
+[14.098s] -- looking for PCL_SEARCH
+[14.099s] -- looking for PCL_SAMPLE_CONSENSUS
+[14.099s] -- looking for PCL_FILTERS
+[14.099s] -- looking for PCL_2D
+[14.099s] -- looking for PCL_GEOMETRY
+[14.099s] -- looking for PCL_IO
+[14.100s] -- looking for PCL_FEATURES
+[14.100s] -- looking for PCL_ML
+[14.100s] -- looking for PCL_SEGMENTATION
+[14.100s] -- looking for PCL_VISUALIZATION
+[14.101s] -- looking for PCL_SURFACE
+[14.101s] -- looking for PCL_REGISTRATION
+[14.101s] -- looking for PCL_KEYPOINTS
+[14.101s] -- looking for PCL_TRACKING
+[14.102s] -- looking for PCL_RECOGNITION
+[14.102s] -- looking for PCL_STEREO
+[14.102s] -- looking for PCL_APPS
+[14.103s] -- looking for PCL_IN_HAND_SCANNER
+[14.103s] -- looking for PCL_MODELER
+[14.103s] -- looking for PCL_POINT_CLOUD_EDITOR
+[14.103s] -- looking for PCL_OUTOFCORE
+[14.104s] -- looking for PCL_PEOPLE
+[14.105s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[14.124s] -- Found lslidar_msgs: 1.2.0 (/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[14.134s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[15.062s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[15.162s] -- Configuring done
+[15.239s] -- Generating done
+[15.247s] -- Build files have been written to: /home/yys/cleaning_robot_ws/build/lslidar_driver
+[15.258s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver
+[15.260s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[15.296s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[15.296s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[15.296s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[15.296s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[15.321s] In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/input.cc:1[m[K:
+[15.321s] [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[15.321s]    32 | #include [01;31m[K<pcap.h>[m[K
+[15.321s]       |          [01;31m[K^~~~~~~~[m[K
+[15.321s] compilation terminated.
+[15.322s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:104: CMakeFiles/lslidar_driver_node.dir/src/input.cc.o] Error 1
+[15.322s] gmake[2]: *** Waiting for unfinished jobs....
+[17.102s] In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+[17.102s]                  from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[17.102s] [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[17.102s]    32 | #include [01;31m[K<pcap.h>[m[K
+[17.102s]       |          [01;31m[K^~~~~~~~[m[K
+[17.102s] compilation terminated.
+[17.102s] In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+[17.102s]                  from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver_node.cc:19[m[K:
+[17.102s] [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[17.102s]    32 | #include [01;31m[K<pcap.h>[m[K
+[17.102s]       |          [01;31m[K^~~~~~~~[m[K
+[17.102s] compilation terminated.
+[17.112s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:90: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o] Error 1
+[17.113s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:76: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o] Error 1
+[17.113s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lslidar_driver_node.dir/all] Error 2
+[17.113s] gmake: *** [Makefile:146: all] Error 2
+[17.115s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16

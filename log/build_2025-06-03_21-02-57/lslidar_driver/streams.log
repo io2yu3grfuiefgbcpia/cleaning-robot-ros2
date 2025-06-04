@@ -1,0 +1,149 @@
+[0.075s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- The CXX compiler identification is GNU 11.4.0
+[0.814s] -- Detecting C compiler ABI info
+[0.901s] -- Detecting C compiler ABI info - done
+[0.906s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.907s] -- Detecting C compile features
+[0.908s] -- Detecting C compile features - done
+[0.910s] -- Detecting CXX compiler ABI info
+[1.038s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.042s] -- Detecting CXX compile features
+[1.043s] -- Detecting CXX compile features - done
+[1.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.270s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.644s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.647s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.652s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.722s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.725s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.627s] -- Found Threads: TRUE  
+[5.685s] -- Checking for module 'eigen3'
+[5.694s] --   Found eigen3, version 3.4.0
+[5.716s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.716s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.731s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.662s] -- Checking for module 'flann'
+[6.672s] --   Found flann, version 1.9.1
+[6.944s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.945s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.987s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[7.037s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[7.261s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[7.261s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[7.264s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[7.552s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[7.924s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[7.947s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[8.740s] -- Found X11: /usr/include   
+[8.741s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[8.862s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[8.862s] -- Looking for gethostbyname
+[8.968s] -- Looking for gethostbyname - found
+[8.968s] -- Looking for connect
+[9.051s] -- Looking for connect - found
+[9.051s] -- Looking for remove
+[9.155s] -- Looking for remove - found
+[9.155s] -- Looking for shmat
+[9.257s] -- Looking for shmat - found
+[9.257s] -- Looking for IceConnectionNumber in ICE
+[9.363s] -- Looking for IceConnectionNumber in ICE - found
+[10.006s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[10.007s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[10.009s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[10.011s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[10.138s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[10.312s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[10.315s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[10.322s] -- Found utf8cpp: /usr/include/utf8cpp  
+[10.377s] -- Checking for module 'libusb-1.0'
+[10.386s] --   Found libusb-1.0, version 1.0.25
+[10.463s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.464s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[10.464s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.589s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[10.589s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.589s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[12.284s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.289s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.293s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.838s] -- Found Qhull version 8.0.2
+[15.295s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.655s] -- looking for PCL_COMMON
+[16.655s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[16.655s] -- looking for PCL_KDTREE
+[16.656s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[16.656s] -- looking for PCL_OCTREE
+[16.657s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[16.657s] -- looking for PCL_SEARCH
+[16.657s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[16.657s] -- looking for PCL_SAMPLE_CONSENSUS
+[16.658s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[16.658s] -- looking for PCL_FILTERS
+[16.658s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[16.658s] -- looking for PCL_2D
+[16.659s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[16.659s] -- looking for PCL_GEOMETRY
+[16.659s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[16.659s] -- looking for PCL_IO
+[16.659s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[16.659s] -- looking for PCL_FEATURES
+[16.660s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[16.660s] -- looking for PCL_ML
+[16.660s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[16.661s] -- looking for PCL_SEGMENTATION
+[16.661s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[16.661s] -- looking for PCL_VISUALIZATION
+[16.662s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[16.662s] -- looking for PCL_SURFACE
+[16.662s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[16.663s] -- looking for PCL_REGISTRATION
+[16.663s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[16.663s] -- looking for PCL_KEYPOINTS
+[16.663s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[16.664s] -- looking for PCL_TRACKING
+[16.664s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[16.664s] -- looking for PCL_RECOGNITION
+[16.665s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[16.665s] -- looking for PCL_STEREO
+[16.665s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[16.665s] -- looking for PCL_APPS
+[16.666s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[16.666s] -- looking for PCL_IN_HAND_SCANNER
+[16.666s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[16.666s] -- looking for PCL_MODELER
+[16.667s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[16.667s] -- looking for PCL_POINT_CLOUD_EDITOR
+[16.678s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[16.678s] -- looking for PCL_OUTOFCORE
+[16.678s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[16.679s] -- looking for PCL_PEOPLE
+[16.679s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[16.680s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[17.645s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[17.645s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[17.645s]   project has asked CMake to find a package configuration file provided by
+[17.645s]   "diagnostic_updater", but CMake did not find one.
+[17.645s] 
+[17.645s]   Could not find a package configuration file provided by
+[17.645s]   "diagnostic_updater" with any of the following names:
+[17.645s] 
+[17.645s]     diagnostic_updaterConfig.cmake
+[17.645s]     diagnostic_updater-config.cmake
+[17.645s] 
+[17.645s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[17.645s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[17.645s]   files.  If "diagnostic_updater" provides a separate development package or
+[17.645s]   SDK, be sure it has been installed.
+[17.646s] 
+[17.646s] [0m
+[17.646s] -- Configuring incomplete, errors occurred!
+[17.646s] See also "/home/yys/cleaning_robot_ws/build/lslidar_driver/CMakeFiles/CMakeOutput.log".
+[17.659s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '1': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver

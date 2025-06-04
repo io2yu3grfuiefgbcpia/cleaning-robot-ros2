@@ -1,0 +1,9 @@
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/uninstall.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/cleaning_robot_description_uninstall.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/test.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/edit_cache.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/rebuild_cache.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/list_install_components.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/install.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/install/local.dir
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/CMakeFiles/install/strip.dir

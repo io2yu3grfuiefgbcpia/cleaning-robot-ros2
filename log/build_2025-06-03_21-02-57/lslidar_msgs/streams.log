@@ -1,0 +1,298 @@
+[0.012s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_msgs
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.220s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.351s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.356s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.421s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.451s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.459s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.675s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.099s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.391s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.391s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.391s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.391s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.406s] -- Found PythonExtra: .so  
+[1.466s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.468s] -- Added test 'lint_cmake' to check CMake code style
+[1.469s] -- Added test 'xmllint' to check XML markup files
+[1.477s] -- Configuring done
+[1.511s] -- Generating done
+[1.518s] -- Build files have been written to: /home/yys/cleaning_robot_ws/build/lslidar_msgs
+[1.525s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_msgs
+[1.526s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+[1.552s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.558s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.563s] [  3%] Built target ament_cmake_python_symlink_lslidar_msgs
+[1.714s] running egg_info
+[1.715s] creating lslidar_msgs.egg-info
+[1.715s] writing lslidar_msgs.egg-info/PKG-INFO
+[1.716s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[1.716s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[1.716s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.718s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.718s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.737s] [  3%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[1.903s] [  3%] Built target lslidar_msgs__cpp
+[1.909s] [  4%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[1.910s] [  7%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[1.910s] [  7%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[1.910s] [  9%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[1.912s] [ 11%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[1.914s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.914s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.914s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.024s] [ 17%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[2.144s] [ 17%] Built target lslidar_msgs__rosidl_generator_c
+[2.153s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.153s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.156s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.236s] [ 23%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[2.237s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[2.238s] [ 26%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[2.240s] [ 28%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[2.240s] [ 30%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[2.287s] [ 31%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[2.289s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[2.292s] [ 36%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[2.292s] [ 36%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[2.293s] [ 38%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[2.358s] [ 41%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[2.358s] [ 41%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[2.359s] [ 42%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[2.789s] [ 44%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[2.852s] [ 46%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[2.859s] [ 47%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[2.860s] [ 49%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[2.885s] [ 50%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[2.886s] [ 52%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[2.909s] [ 53%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[2.917s] [ 55%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[2.918s] [ 57%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[2.930s] [ 58%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[2.934s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[2.962s] [ 61%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[2.964s] [ 63%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[2.976s] [ 65%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[2.977s] [ 66%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[2.988s] [ 68%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[3.013s] [ 69%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[3.018s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[3.025s] [ 73%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[3.042s] [ 74%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.100s] [ 74%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[3.150s] [ 74%] Built target lslidar_msgs__rosidl_typesupport_c
+[3.159s] [ 76%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.211s] [ 76%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[3.362s] [ 76%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[3.425s] [ 77%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.435s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.545s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[3.553s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[3.567s] [ 79%] Built target lslidar_msgs
+[3.580s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.071s] [ 80%] Built target lslidar_msgs__py
+[4.085s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[4.085s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[4.085s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[4.085s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[4.087s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[4.195s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[4.278s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[4.291s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.291s] [ 93%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.292s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.355s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.355s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.356s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.420s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[4.420s] [100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.420s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[4.428s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+[4.435s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs
+[4.440s] -- Install configuration: ""
+[4.440s] -- Execute custom install script
+[4.441s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[4.448s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[4.453s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[4.459s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[4.465s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[4.470s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[4.477s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[4.482s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[4.487s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[4.492s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[4.498s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[4.503s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[4.509s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[4.515s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[4.521s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[4.526s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[4.532s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[4.537s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[4.543s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[4.549s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[4.554s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[4.560s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.566s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[4.571s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[4.577s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[4.582s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[4.588s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[4.593s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[4.598s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[4.603s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.610s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[4.615s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[4.621s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[4.626s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[4.632s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[4.637s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[4.643s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[4.648s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[4.654s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[4.660s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[4.665s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[4.670s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[4.676s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[4.682s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[4.687s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[4.694s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[4.700s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[4.705s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[4.710s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[4.715s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[4.721s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[4.728s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[4.734s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[4.740s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[4.745s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[4.751s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.757s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[4.763s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[4.768s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.774s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.780s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[4.785s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.791s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[4.797s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[4.803s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[4.808s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[4.813s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[4.818s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.825s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[4.830s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[4.836s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[4.841s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[4.846s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[4.852s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[4.857s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[4.864s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[4.869s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[4.875s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[4.880s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[4.886s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[4.891s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[4.897s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.903s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.908s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[4.914s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.919s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.925s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.931s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[4.937s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[4.943s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[4.948s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[4.954s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[4.960s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[4.965s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[4.971s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[4.977s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[4.983s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[4.989s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[4.995s] -- Up-to-date symlink: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Up-to-date symlink: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Up-to-date symlink: /home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[5.001s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[5.007s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[5.012s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[5.018s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[5.023s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[5.029s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[5.035s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[5.041s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[5.047s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[5.053s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[5.059s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[5.065s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[5.071s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[5.077s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[5.083s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[5.089s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[5.095s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[5.100s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[5.106s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[5.111s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[5.117s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[5.122s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[5.129s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.135s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.142s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.148s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.154s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.160s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.165s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[5.170s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[5.177s] -- Symlinking: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[5.193s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[5.193s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[5.193s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[5.193s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.193s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.194s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.194s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[5.194s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.194s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[5.194s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[5.194s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[5.194s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.194s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[5.194s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[5.226s] Listing '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[5.226s] Listing '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[5.226s] Compiling '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[5.229s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.229s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[5.230s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.232s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs

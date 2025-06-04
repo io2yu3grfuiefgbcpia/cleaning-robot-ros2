@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (-) JobUnselected: {'identifier': 'cleaning_robot_control'}
+[0.000568] (-) JobUnselected: {'identifier': 'cleaning_robot_description'}
+[0.000592] (-) JobUnselected: {'identifier': 'cleaning_robot_navigation'}
+[0.000616] (-) JobUnselected: {'identifier': 'cleaning_robot_perception'}
+[0.000641] (-) JobUnselected: {'identifier': 'cleaning_robot_slam'}
+[0.000665] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.000691] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/yys/cleaning_robot_ws/install/lslidar_msgs')])}
+[0.000720] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[0.078108] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[0.078913] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[0.079738] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yys/cleaning_robot_ws/build/lslidar_driver', '--', '-j16', '-l16'], 'cwd': '/home/yys/cleaning_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'yys'), ('GIT_ASKPASS', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yys'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73707f59-1af6-4933-bfe5-2d00aba94a1a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yys'), ('NAME', 'yys'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/gstreamer/1.0/mingw_x86_64/bin:/mnt/d/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Program Files/nodejs/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/TortoiseGit/bin:/mnt/c/Program Files/qemu:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/Users/yyyys/AppData/Roaming/npm:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60a731b265.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yys/cleaning_robot_ws/build/lslidar_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099797] (-) TimerEvent: {}
+[0.110058] (lslidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_driver_node\x1b[0m\n'}
+[0.120044] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o\x1b[0m\n'}
+[0.120295] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[0.120343] (lslidar_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[0.200021] (-) TimerEvent: {}
+[0.300363] (-) TimerEvent: {}
+[0.400739] (-) TimerEvent: {}
+[0.501086] (-) TimerEvent: {}
+[0.601467] (-) TimerEvent: {}
+[0.701897] (-) TimerEvent: {}
+[0.802209] (-) TimerEvent: {}
+[0.902549] (-) TimerEvent: {}
+[1.002940] (-) TimerEvent: {}
+[1.103331] (-) TimerEvent: {}
+[1.203784] (-) TimerEvent: {}
+[1.304172] (-) TimerEvent: {}
+[1.404666] (-) TimerEvent: {}
+[1.505021] (-) TimerEvent: {}
+[1.605412] (-) TimerEvent: {}
+[1.705805] (-) TimerEvent: {}
+[1.806268] (-) TimerEvent: {}
+[1.906784] (-) TimerEvent: {}
+[2.007159] (-) TimerEvent: {}
+[2.107513] (-) TimerEvent: {}
+[2.207935] (-) TimerEvent: {}
+[2.308313] (-) TimerEvent: {}
+[2.408699] (-) TimerEvent: {}
+[2.509187] (-) TimerEvent: {}
+[2.609759] (-) TimerEvent: {}
+[2.710116] (-) TimerEvent: {}
+[2.810469] (-) TimerEvent: {}
+[2.910901] (-) TimerEvent: {}
+[3.011341] (-) TimerEvent: {}
+[3.111750] (-) TimerEvent: {}
+[3.212365] (-) TimerEvent: {}
+[3.312980] (-) TimerEvent: {}
+[3.413350] (-) TimerEvent: {}
+[3.513710] (-) TimerEvent: {}
+[3.614160] (-) TimerEvent: {}
+[3.714510] (-) TimerEvent: {}
+[3.814947] (-) TimerEvent: {}
+[3.915453] (-) TimerEvent: {}
+[4.015902] (-) TimerEvent: {}
+[4.116394] (-) TimerEvent: {}
+[4.217102] (-) TimerEvent: {}
+[4.317770] (-) TimerEvent: {}
+[4.418391] (-) TimerEvent: {}
+[4.518863] (-) TimerEvent: {}
+[4.619417] (-) TimerEvent: {}
+[4.720024] (-) TimerEvent: {}
+[4.820800] (-) TimerEvent: {}
+[4.921166] (-) TimerEvent: {}
+[5.021542] (-) TimerEvent: {}
+[5.122012] (-) TimerEvent: {}
+[5.222380] (-) TimerEvent: {}
+[5.322708] (-) TimerEvent: {}
+[5.423202] (-) TimerEvent: {}
+[5.523534] (-) TimerEvent: {}
+[5.623909] (-) TimerEvent: {}
+[5.724251] (-) TimerEvent: {}
+[5.824736] (-) TimerEvent: {}
+[5.925081] (-) TimerEvent: {}
+[6.025473] (-) TimerEvent: {}
+[6.125810] (-) TimerEvent: {}
+[6.226232] (-) TimerEvent: {}
+[6.326629] (-) TimerEvent: {}
+[6.427048] (-) TimerEvent: {}
+[6.527456] (-) TimerEvent: {}
+[6.627826] (-) TimerEvent: {}
+[6.728515] (-) TimerEvent: {}
+[6.828970] (-) TimerEvent: {}
+[6.929294] (-) TimerEvent: {}
+[7.029782] (-) TimerEvent: {}
+[7.130110] (-) TimerEvent: {}
+[7.230592] (-) TimerEvent: {}
+[7.331054] (-) TimerEvent: {}
+[7.431465] (-) TimerEvent: {}
+[7.532226] (-) TimerEvent: {}
+[7.632664] (-) TimerEvent: {}
+[7.733245] (-) TimerEvent: {}
+[7.833837] (-) TimerEvent: {}
+[7.934233] (-) TimerEvent: {}
+[8.034695] (-) TimerEvent: {}
+[8.135163] (-) TimerEvent: {}
+[8.235654] (-) TimerEvent: {}
+[8.336151] (-) TimerEvent: {}
+[8.436600] (-) TimerEvent: {}
+[8.537137] (-) TimerEvent: {}
+[8.637558] (-) TimerEvent: {}
+[8.737973] (-) TimerEvent: {}
+[8.838401] (-) TimerEvent: {}
+[8.938908] (-) TimerEvent: {}
+[9.039370] (-) TimerEvent: {}
+[9.139798] (-) TimerEvent: {}
+[9.240311] (-) TimerEvent: {}
+[9.340704] (-) TimerEvent: {}
+[9.441095] (-) TimerEvent: {}
+[9.541624] (-) TimerEvent: {}
+[9.641943] (-) TimerEvent: {}
+[9.742374] (-) TimerEvent: {}
+[9.842790] (-) TimerEvent: {}
+[9.943142] (-) TimerEvent: {}
+[10.043485] (-) TimerEvent: {}
+[10.143906] (-) TimerEvent: {}
+[10.244326] (-) TimerEvent: {}
+[10.344754] (-) TimerEvent: {}
+[10.445213] (-) TimerEvent: {}
+[10.545655] (-) TimerEvent: {}
+[10.646031] (-) TimerEvent: {}
+[10.746466] (-) TimerEvent: {}
+[10.846776] (-) TimerEvent: {}
+[10.947171] (-) TimerEvent: {}
+[11.047684] (-) TimerEvent: {}
+[11.148049] (-) TimerEvent: {}
+[11.248715] (-) TimerEvent: {}
+[11.334158] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[11.348932] (-) TimerEvent: {}
+[11.449274] (-) TimerEvent: {}
+[11.549716] (-) TimerEvent: {}
+[11.650166] (-) TimerEvent: {}
+[11.750534] (-) TimerEvent: {}
+[11.851105] (-) TimerEvent: {}
+[11.951414] (-) TimerEvent: {}
+[12.051728] (-) TimerEvent: {}
+[12.152057] (-) TimerEvent: {}
+[12.252438] (-) TimerEvent: {}
+[12.353013] (-) TimerEvent: {}
+[12.453867] (-) TimerEvent: {}
+[12.554497] (-) TimerEvent: {}
+[12.642983] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[12.654593] (-) TimerEvent: {}
+[12.657208] (lslidar_driver) CommandEnded: {'returncode': 0}
+[12.658153] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[12.664607] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yys/cleaning_robot_ws/build/lslidar_driver'], 'cwd': '/home/yys/cleaning_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'yys'), ('GIT_ASKPASS', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yys'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73707f59-1af6-4933-bfe5-2d00aba94a1a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yys'), ('NAME', 'yys'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/gstreamer/1.0/mingw_x86_64/bin:/mnt/d/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Program Files/nodejs/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/TortoiseGit/bin:/mnt/c/Program Files/qemu:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/Users/yyyys/AppData/Roaming/npm:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60a731b265.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yys/cleaning_robot_ws/build/lslidar_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[12.669610] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.669744] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[12.669874] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[12.669920] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[12.669994] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[12.670080] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[12.670213] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[12.670257] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[12.670346] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[12.670432] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p.launch.py\n'}
+[12.670528] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[12.670559] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[12.670590] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[12.670675] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params\n'}
+[12.670848] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2\n'}
+[12.670991] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[12.671100] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[12.671206] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[12.671326] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/cleaning_robot_n10p.yaml\n'}
+[12.671457] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[12.671498] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2\n'}
+[12.671574] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[12.671643] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[12.671714] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[12.671829] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[12.671867] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[12.671935] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[12.672216] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[12.674608] (lslidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""\n'}
+[12.674783] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[12.674951] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[12.675115] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[12.675460] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[12.675740] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[12.675902] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[12.675941] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[12.676002] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[12.676066] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[12.676179] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[12.676215] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[12.676326] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[12.676504] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.676625] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.676753] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[12.676783] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[12.676809] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[12.678525] (lslidar_driver) CommandEnded: {'returncode': 0}
+[12.689805] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[12.690498] (-) EventReactorShutdown: {}

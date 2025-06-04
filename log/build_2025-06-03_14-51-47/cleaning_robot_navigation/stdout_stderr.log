@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info
+writing ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/requires.txt
+writing top-level names to ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/top_level.txt
+writing manifest file '../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build
+creating /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build/lib
+creating /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation
+copying cleaning_robot_navigation/__init__.py -> /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation
+running install
+running install_lib
+creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation
+copying /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build/lib/cleaning_robot_navigation/__init__.py -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation
+byte-compiling /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index
+creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index/resource_index
+creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+copying resource/cleaning_robot_navigation -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation
+running install_egg_info
+Copying ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info to /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning_robot_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/install.log'

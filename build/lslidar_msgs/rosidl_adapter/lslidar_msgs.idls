@@ -1,0 +1,5 @@
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarDifop.idl
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPoint.idl
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarScan.idl
+/home/yys/cleaning_robot_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarSweep.idl

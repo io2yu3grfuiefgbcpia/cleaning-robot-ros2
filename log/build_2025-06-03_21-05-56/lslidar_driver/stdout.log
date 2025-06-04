@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[ 80%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[100%] Built target lslidar_driver_node
+-- Install configuration: ""
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p.launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/cleaning_robot_n10p.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+-- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+-- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml

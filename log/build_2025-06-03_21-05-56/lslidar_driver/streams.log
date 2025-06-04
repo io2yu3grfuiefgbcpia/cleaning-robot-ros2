@@ -1,0 +1,56 @@
+[0.081s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[0.120s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[0.120s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[0.120s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[11.334s] [ 80%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[12.642s] [100%] Built target lslidar_driver_node
+[12.657s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[12.664s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver
+[12.669s] -- Install configuration: ""
+[12.669s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch
+[12.669s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[12.669s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[12.669s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[12.669s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p.launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[12.670s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/cleaning_robot_n10p.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[12.671s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[12.672s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[12.674s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[12.674s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[12.674s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[12.674s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[12.675s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[12.676s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[12.678s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver

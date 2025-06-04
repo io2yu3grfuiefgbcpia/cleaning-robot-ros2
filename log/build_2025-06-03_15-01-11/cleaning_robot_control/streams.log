@@ -1,0 +1,21 @@
+[3.970s] Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_control build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_control/install.log --single-version-externally-managed install_data
+[4.667s] running egg_info
+[4.672s] writing ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/PKG-INFO
+[4.672s] writing dependency_links to ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/dependency_links.txt
+[4.672s] writing entry points to ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/entry_points.txt
+[4.672s] writing requirements to ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/requires.txt
+[4.676s] writing top-level names to ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/top_level.txt
+[4.681s] reading manifest file '../../build/cleaning_robot_control/cleaning_robot_control.egg-info/SOURCES.txt'
+[4.682s] writing manifest file '../../build/cleaning_robot_control/cleaning_robot_control.egg-info/SOURCES.txt'
+[4.683s] running build
+[4.683s] running build_py
+[4.691s] running install
+[4.695s] running install_lib
+[4.695s] running install_data
+[4.696s] running install_egg_info
+[4.699s] removing '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages/cleaning_robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[4.699s] Copying ../../build/cleaning_robot_control/cleaning_robot_control.egg-info to /home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages/cleaning_robot_control-0.0.0-py3.10.egg-info
+[4.701s] running install_scripts
+[4.765s] Installing cleaning_controller script to /home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/cleaning_robot_control
+[4.766s] writing list of installed files to '/home/yys/cleaning_robot_ws/build/cleaning_robot_control/install.log'
+[4.886s] Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_control build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_control/install.log --single-version-externally-managed install_data

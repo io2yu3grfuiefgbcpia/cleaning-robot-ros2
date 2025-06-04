@@ -1,0 +1,24 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/input.cc:1[m[K:
+[01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+   32 | #include [01;31m[K<pcap.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:104: CMakeFiles/lslidar_driver_node.dir/src/input.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+                 from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+   32 | #include [01;31m[K<pcap.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+                 from [01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver_node.cc:19[m[K:
+[01m[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+   32 | #include [01;31m[K<pcap.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:90: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o] Error 1
+gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:76: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lslidar_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

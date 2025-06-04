@@ -1,0 +1,3 @@
+[console_scripts]
+cleaning_controller = cleaning_robot_control.cleaning_controller:main
+

@@ -1,0 +1,54 @@
+[0.805s] Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
+[6.805s] -- The C compiler identification is GNU 11.4.0
+[12.478s] -- The CXX compiler identification is GNU 11.4.0
+[14.648s] -- Detecting C compiler ABI info
+[15.030s] -- Detecting C compiler ABI info - done
+[15.059s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.061s] -- Detecting C compile features
+[15.063s] -- Detecting C compile features - done
+[15.073s] -- Detecting CXX compiler ABI info
+[15.489s] -- Detecting CXX compiler ABI info - done
+[15.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.506s] -- Detecting CXX compile features
+[15.507s] -- Detecting CXX compile features - done
+[15.516s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[15.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[16.372s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.693s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.699s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.701s] -- Added test 'lint_cmake' to check CMake code style
+[16.704s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.709s] -- Added test 'xmllint' to check XML markup files
+[16.715s] -- Configuring done
+[16.724s] -- Generating done
+[16.727s] -- Build files have been written to: /home/yys/cleaning_robot_ws/build/cleaning_robot_description
+[16.736s] Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
+[16.741s] Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/cleaning_robot_description -- -j16 -l16
+[16.847s] Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/cleaning_robot_description -- -j16 -l16
+[16.865s] Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/cleaning_robot_description
+[16.902s] -- Install configuration: ""
+[16.902s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch
+[16.904s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/robot_state_publisher.launch.py
+[16.905s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/gazebo.launch.py
+[16.905s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//launch/cleaning_robot_complete.launch.py
+[16.906s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//urdf
+[16.906s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//urdf/cleaning_robot.urdf.xacro
+[16.907s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//config
+[16.907s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//config/cleaning_robot.rviz
+[16.908s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description//meshes
+[16.911s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/package_run_dependencies/cleaning_robot_description
+[16.912s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/parent_prefix_path/cleaning_robot_description
+[16.912s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/ament_prefix_path.sh
+[16.913s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/ament_prefix_path.dsv
+[16.914s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/path.sh
+[16.914s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/environment/path.dsv
+[16.914s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.bash
+[16.915s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.sh
+[16.916s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.zsh
+[16.916s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/local_setup.dsv
+[16.917s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.dsv
+[16.917s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/ament_index/resource_index/packages/cleaning_robot_description
+[16.918s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/cmake/cleaning_robot_descriptionConfig.cmake
+[16.918s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/cmake/cleaning_robot_descriptionConfig-version.cmake
+[16.919s] -- Installing: /home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.xml
+[16.924s] Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/cleaning_robot_description

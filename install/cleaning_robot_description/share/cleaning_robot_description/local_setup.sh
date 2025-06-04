@@ -1,0 +1,1 @@
+/home/yys/cleaning_robot_ws/build/cleaning_robot_description/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,10 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/yys/cleaning_robot_ws/src/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/yys/cleaning_robot_ws/src/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/yys/cleaning_robot_ws/src/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/yys/cleaning_robot_ws/src/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/yys/cleaning_robot_ws/src/lslidar_msgs:msg/LslidarSweep.msg"
+  ]
+}

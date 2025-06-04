@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (-) JobUnselected: {'identifier': 'cleaning_robot_control'}
+[0.000726] (-) JobUnselected: {'identifier': 'cleaning_robot_description'}
+[0.000883] (-) JobUnselected: {'identifier': 'cleaning_robot_navigation'}
+[0.000935] (-) JobUnselected: {'identifier': 'cleaning_robot_perception'}
+[0.000960] (-) JobUnselected: {'identifier': 'cleaning_robot_slam'}
+[0.000984] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001010] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/yys/cleaning_robot_ws/install/lslidar_msgs')])}
+[0.001038] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[0.070216] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[0.071139] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/yys/cleaning_robot_ws/src/lslidar_driver', '-DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver'], 'cwd': '/home/yys/cleaning_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'yys'), ('GIT_ASKPASS', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yys'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73707f59-1af6-4933-bfe5-2d00aba94a1a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yys'), ('NAME', 'yys'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/gstreamer/1.0/mingw_x86_64/bin:/mnt/d/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Program Files/nodejs/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/TortoiseGit/bin:/mnt/c/Program Files/qemu:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/Users/yyyys/AppData/Roaming/npm:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60a731b265.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yys/cleaning_robot_ws/build/lslidar_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.085660] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[0.086257] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099718] (-) TimerEvent: {}
+[0.200070] (-) TimerEvent: {}
+[0.269409] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.270816] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.274194] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.281429] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.288553] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300203] (-) TimerEvent: {}
+[0.307638] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.308607] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400419] (-) TimerEvent: {}
+[0.500764] (-) TimerEvent: {}
+[0.601071] (-) TimerEvent: {}
+[0.701428] (-) TimerEvent: {}
+[0.801986] (-) TimerEvent: {}
+[0.905126] (-) TimerEvent: {}
+[1.005517] (-) TimerEvent: {}
+[1.106118] (-) TimerEvent: {}
+[1.206721] (-) TimerEvent: {}
+[1.307013] (-) TimerEvent: {}
+[1.407306] (-) TimerEvent: {}
+[1.507632] (-) TimerEvent: {}
+[1.607944] (-) TimerEvent: {}
+[1.708276] (-) TimerEvent: {}
+[1.808591] (-) TimerEvent: {}
+[1.908895] (-) TimerEvent: {}
+[2.009276] (-) TimerEvent: {}
+[2.109662] (-) TimerEvent: {}
+[2.210026] (-) TimerEvent: {}
+[2.310433] (-) TimerEvent: {}
+[2.410783] (-) TimerEvent: {}
+[2.511193] (-) TimerEvent: {}
+[2.611636] (-) TimerEvent: {}
+[2.712400] (-) TimerEvent: {}
+[2.812860] (-) TimerEvent: {}
+[2.913344] (-) TimerEvent: {}
+[3.013742] (-) TimerEvent: {}
+[3.114093] (-) TimerEvent: {}
+[3.214462] (-) TimerEvent: {}
+[3.314928] (-) TimerEvent: {}
+[3.415341] (-) TimerEvent: {}
+[3.515833] (-) TimerEvent: {}
+[3.616191] (-) TimerEvent: {}
+[3.716565] (-) TimerEvent: {}
+[3.816955] (-) TimerEvent: {}
+[3.917271] (-) TimerEvent: {}
+[4.017613] (-) TimerEvent: {}
+[4.118010] (-) TimerEvent: {}
+[4.218395] (-) TimerEvent: {}
+[4.318715] (-) TimerEvent: {}
+[4.341022] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.377633] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.383566] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[4.419033] (-) TimerEvent: {}
+[4.519516] (-) TimerEvent: {}
+[4.619851] (-) TimerEvent: {}
+[4.720178] (-) TimerEvent: {}
+[4.820479] (-) TimerEvent: {}
+[4.920816] (-) TimerEvent: {}
+[5.021123] (-) TimerEvent: {}
+[5.121580] (-) TimerEvent: {}
+[5.222116] (-) TimerEvent: {}
+[5.322495] (-) TimerEvent: {}
+[5.423008] (-) TimerEvent: {}
+[5.523361] (-) TimerEvent: {}
+[5.623724] (-) TimerEvent: {}
+[5.724030] (-) TimerEvent: {}
+[5.792867] (lslidar_driver) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.824150] (-) TimerEvent: {}
+[5.924460] (-) TimerEvent: {}
+[6.024775] (-) TimerEvent: {}
+[6.125075] (-) TimerEvent: {}
+[6.225407] (-) TimerEvent: {}
+[6.325746] (-) TimerEvent: {}
+[6.426042] (-) TimerEvent: {}
+[6.526450] (-) TimerEvent: {}
+[6.627004] (-) TimerEvent: {}
+[6.727348] (-) TimerEvent: {}
+[6.827794] (-) TimerEvent: {}
+[6.928271] (-) TimerEvent: {}
+[7.028743] (-) TimerEvent: {}
+[7.129307] (-) TimerEvent: {}
+[7.229711] (-) TimerEvent: {}
+[7.330076] (-) TimerEvent: {}
+[7.430395] (-) TimerEvent: {}
+[7.530733] (-) TimerEvent: {}
+[7.631102] (-) TimerEvent: {}
+[7.731438] (-) TimerEvent: {}
+[7.831869] (-) TimerEvent: {}
+[7.932328] (-) TimerEvent: {}
+[8.032732] (-) TimerEvent: {}
+[8.133086] (-) TimerEvent: {}
+[8.233405] (-) TimerEvent: {}
+[8.333773] (-) TimerEvent: {}
+[8.434157] (-) TimerEvent: {}
+[8.529498] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.533800] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.533939] (lslidar_driver) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[8.534229] (-) TimerEvent: {}
+[8.634505] (-) TimerEvent: {}
+[8.734972] (-) TimerEvent: {}
+[8.835320] (-) TimerEvent: {}
+[8.935634] (-) TimerEvent: {}
+[9.036021] (-) TimerEvent: {}
+[9.136453] (-) TimerEvent: {}
+[9.236766] (-) TimerEvent: {}
+[9.337178] (-) TimerEvent: {}
+[9.437704] (-) TimerEvent: {}
+[9.538060] (-) TimerEvent: {}
+[9.638354] (-) TimerEvent: {}
+[9.738701] (-) TimerEvent: {}
+[9.839031] (-) TimerEvent: {}
+[9.939458] (-) TimerEvent: {}
+[10.039963] (-) TimerEvent: {}
+[10.051848] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[10.056080] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.060093] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[10.140100] (-) TimerEvent: {}
+[10.240391] (-) TimerEvent: {}
+[10.340767] (-) TimerEvent: {}
+[10.441180] (-) TimerEvent: {}
+[10.541780] (-) TimerEvent: {}
+[10.642098] (-) TimerEvent: {}
+[10.742444] (-) TimerEvent: {}
+[10.842895] (-) TimerEvent: {}
+[10.943198] (-) TimerEvent: {}
+[11.043506] (-) TimerEvent: {}
+[11.143901] (-) TimerEvent: {}
+[11.244252] (-) TimerEvent: {}
+[11.344758] (-) TimerEvent: {}
+[11.445253] (-) TimerEvent: {}
+[11.503780] (lslidar_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[11.545456] (-) TimerEvent: {}
+[11.645803] (-) TimerEvent: {}
+[11.746182] (-) TimerEvent: {}
+[11.846570] (-) TimerEvent: {}
+[11.946918] (-) TimerEvent: {}
+[12.047303] (-) TimerEvent: {}
+[12.147744] (-) TimerEvent: {}
+[12.248091] (-) TimerEvent: {}
+[12.348433] (-) TimerEvent: {}
+[12.448742] (-) TimerEvent: {}
+[12.549254] (-) TimerEvent: {}
+[12.649684] (-) TimerEvent: {}
+[12.750016] (-) TimerEvent: {}
+[12.850332] (-) TimerEvent: {}
+[12.892091] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.950558] (-) TimerEvent: {}
+[13.050902] (-) TimerEvent: {}
+[13.151241] (-) TimerEvent: {}
+[13.251552] (-) TimerEvent: {}
+[13.351889] (-) TimerEvent: {}
+[13.452198] (-) TimerEvent: {}
+[13.552502] (-) TimerEvent: {}
+[13.652805] (-) TimerEvent: {}
+[13.753139] (-) TimerEvent: {}
+[13.853505] (-) TimerEvent: {}
+[13.953798] (-) TimerEvent: {}
+[14.054093] (-) TimerEvent: {}
+[14.098716] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[14.098963] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[14.099191] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[14.099394] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[14.099637] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[14.099844] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[14.100263] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[14.100358] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[14.100466] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[14.100722] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[14.100954] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[14.101150] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[14.101425] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[14.101715] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[14.101956] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[14.102212] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[14.102470] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[14.102757] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[14.103043] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[14.103268] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[14.103864] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[14.103974] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[14.104146] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[14.104315] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[14.104551] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[14.106286] (lslidar_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[14.125217] (lslidar_driver) StdoutLine: {'line': b'-- Found lslidar_msgs: 1.2.0 (/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)\n'}
+[14.134995] (lslidar_driver) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[14.154232] (-) TimerEvent: {}
+[14.254559] (-) TimerEvent: {}
+[14.354910] (-) TimerEvent: {}
+[14.455243] (-) TimerEvent: {}
+[14.555561] (-) TimerEvent: {}
+[14.655884] (-) TimerEvent: {}
+[14.756215] (-) TimerEvent: {}
+[14.856520] (-) TimerEvent: {}
+[14.956839] (-) TimerEvent: {}
+[15.057237] (-) TimerEvent: {}
+[15.063186] (lslidar_driver) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[15.157539] (-) TimerEvent: {}
+[15.163277] (lslidar_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.239788] (lslidar_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[15.248312] (lslidar_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/yys/cleaning_robot_ws/build/lslidar_driver\n'}
+[15.257704] (-) TimerEvent: {}
+[15.258715] (lslidar_driver) CommandEnded: {'returncode': 0}
+[15.260212] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[15.260376] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yys/cleaning_robot_ws/build/lslidar_driver', '--', '-j16', '-l16'], 'cwd': '/home/yys/cleaning_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'yys'), ('GIT_ASKPASS', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yys'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73707f59-1af6-4933-bfe5-2d00aba94a1a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yys'), ('NAME', 'yys'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yys/.cursor-server/bin/02270c8441bdc4b2fdbc30e6f470a589ec78d600/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/gstreamer/1.0/mingw_x86_64/bin:/mnt/d/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Program Files/nodejs/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/TortoiseGit/bin:/mnt/c/Program Files/qemu:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/Users/yyyys/AppData/Roaming/npm:/mnt/c/Users/yyyys/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yyyys/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60a731b265.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yys/cleaning_robot_ws/build/lslidar_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yys/cleaning_robot_ws/install/lslidar_msgs:/home/yys/cleaning_robot_ws/install/cleaning_robot_description:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation:/home/yys/cleaning_robot_ws/install/cleaning_robot_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[15.297204] (lslidar_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[15.297385] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[15.297429] (lslidar_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o\x1b[0m\n'}
+[15.297460] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o\x1b[0m\n'}
+[15.322040] (lslidar_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/input.cc:1\x1b[m\x1b[K:\n'}
+[15.322226] (lslidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcap.h: No such file or directory\n'}
+[15.322265] (lslidar_driver) StderrLine: {'line': b'   32 | #include \x1b[01;31m\x1b[K<pcap.h>\x1b[m\x1b[K\n'}
+[15.322294] (lslidar_driver) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.322321] (lslidar_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[15.323037] (lslidar_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:104: CMakeFiles/lslidar_driver_node.dir/src/input.cc.o] Error 1\n'}
+[15.323138] (lslidar_driver) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.357823] (-) TimerEvent: {}
+[15.458171] (-) TimerEvent: {}
+[15.558550] (-) TimerEvent: {}
+[15.658851] (-) TimerEvent: {}
+[15.759176] (-) TimerEvent: {}
+[15.859515] (-) TimerEvent: {}
+[15.959820] (-) TimerEvent: {}
+[16.060133] (-) TimerEvent: {}
+[16.160425] (-) TimerEvent: {}
+[16.260732] (-) TimerEvent: {}
+[16.361036] (-) TimerEvent: {}
+[16.461359] (-) TimerEvent: {}
+[16.561666] (-) TimerEvent: {}
+[16.661971] (-) TimerEvent: {}
+[16.762314] (-) TimerEvent: {}
+[16.862711] (-) TimerEvent: {}
+[16.963027] (-) TimerEvent: {}
+[17.063477] (-) TimerEvent: {}
+[17.102519] (lslidar_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41\x1b[m\x1b[K,\n'}
+[17.102689] (lslidar_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver.cc:31\x1b[m\x1b[K:\n'}
+[17.102736] (lslidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcap.h: No such file or directory\n'}
+[17.102767] (lslidar_driver) StderrLine: {'line': b'   32 | #include \x1b[01;31m\x1b[K<pcap.h>\x1b[m\x1b[K\n'}
+[17.102884] (lslidar_driver) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[17.102919] (lslidar_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[17.102945] (lslidar_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41\x1b[m\x1b[K,\n'}
+[17.102972] (lslidar_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/src/lslidar_driver_node.cc:19\x1b[m\x1b[K:\n'}
+[17.102997] (lslidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yys/cleaning_robot_ws/src/lslidar_driver/include/lslidar_driver/input.h:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcap.h: No such file or directory\n'}
+[17.103075] (lslidar_driver) StderrLine: {'line': b'   32 | #include \x1b[01;31m\x1b[K<pcap.h>\x1b[m\x1b[K\n'}
+[17.103104] (lslidar_driver) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[17.103130] (lslidar_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[17.113402] (lslidar_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:90: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o] Error 1\n'}
+[17.113548] (lslidar_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:76: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o] Error 1\n'}
+[17.113726] (lslidar_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lslidar_driver_node.dir/all] Error 2\n'}
+[17.113872] (lslidar_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.115440] (lslidar_driver) CommandEnded: {'returncode': 2}
+[17.120664] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 2}
+[17.131318] (-) EventReactorShutdown: {}

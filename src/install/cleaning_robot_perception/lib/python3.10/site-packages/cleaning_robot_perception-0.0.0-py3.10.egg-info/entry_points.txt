@@ -1,0 +1,3 @@
+[console_scripts]
+stereo_processor = cleaning_robot_perception.stereo_processor:main
+

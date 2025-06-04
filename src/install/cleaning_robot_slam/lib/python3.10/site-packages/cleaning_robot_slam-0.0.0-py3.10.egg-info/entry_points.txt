@@ -1,0 +1,3 @@
+[console_scripts]
+multi_sensor_slam = cleaning_robot_slam.multi_sensor_slam:main
+

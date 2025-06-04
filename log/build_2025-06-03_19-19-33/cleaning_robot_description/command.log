@@ -1,0 +1,2 @@
+Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
+Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '1': /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
