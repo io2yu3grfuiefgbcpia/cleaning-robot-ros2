@@ -291,3 +291,52 @@ main() {
 
 # 运行主函数
 main 
+
+# 确保matplotlib已安装
+sudo apt install -y python3-matplotlib python3-tk
+
+echo "🎯 选择激光雷达可视化模式:"
+echo "1. 完整RViz风格 (4个窗口)"
+echo "2. 简化双窗口版本"
+
+read -p "请选择 [1-2]: " choice
+
+case $choice in
+    1)
+        echo "🚀 启动完整激光雷达RViz..."
+        python3 lidar_rviz.py
+        ;;
+    2)
+        echo "🚀 启动简化激光雷达查看器..."
+        python3 simple_lidar_viewer.py
+        ;;
+    *)
+        echo "默认启动完整版本..."
+        python3 lidar_rviz.py
+        ;;
+esac 
+
+# 创建真实数据连接脚本
+cat > connect_real_lidar.sh << 'EOF'
+#!/bin/bash
+
+echo "🔗 连接真实激光雷达数据"
+echo "======================="
+
+# 加载环境
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+echo "检查激光雷达话题..."
+ros2 topic list | grep -E "(scan|laser)"
+
+echo ""
+echo "检查激光雷达数据..."
+timeout 3 ros2 topic echo /cleaning_robot/scan --once || echo "无法获取激光雷达数据"
+
+echo ""
+echo "如果看到激光雷达数据，则可以修改Python脚本来使用真实数据"
+echo "目前使用模拟数据进行演示"
+EOF
+
+chmod +x connect_real_lidar.sh 
