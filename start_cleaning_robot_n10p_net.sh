@@ -8,15 +8,33 @@ echo "========================================"
 
 # 设置环境变量
 export ROS_DOMAIN_ID=0
-export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp
+# 使用默认的RMW实现（rmw_fastrtps_cpp），不设置RMW_IMPLEMENTATION
 
-# 检查ROS2环境
-if [ -z "$ROS_DISTRO" ]; then
-    echo "正在设置ROS2环境..."
-    source /opt/ros/humble/setup.bash
+# 检查ROS2环境并强制重新加载
+echo "正在设置ROS2环境..."
+source /opt/ros/humble/setup.bash
+
+# 确保在当前工作空间目录
+cd ~/cleaning_robot_ws/cleaning-robot-ros2
+
+# 强制重新加载工作空间环境
+if [ -f install/setup.bash ]; then
     source install/setup.bash
-else
     echo "✅ ROS2环境已设置: $ROS_DISTRO"
+    echo "✅ 工作空间环境已加载"
+else
+    echo "❌ 未找到install/setup.bash，请先编译工作空间"
+    echo "   运行: colcon build"
+    exit 1
+fi
+
+# 验证清扫机器人包是否可用
+echo "🔍 验证清扫机器人包..."
+if ros2 pkg list | grep -q cleaning_robot_description; then
+    echo "✅ 清扫机器人包可用"
+else
+    echo "❌ 清扫机器人包未找到，请检查编译状态"
+    exit 1
 fi
 
 # 网络配置参数
@@ -84,10 +102,11 @@ start_node() {
     local name=$1
     local command=$2
     echo "启动 $name..."
-    eval "$command" > logs/${name}.log 2>&1 &
+    # 确保在正确的环境中启动节点
+    bash -c "source /opt/ros/humble/setup.bash && source install/setup.bash && $command" > logs/${name}.log 2>&1 &
     local pid=$!
     echo "$name PID: $pid"
-    sleep 2
+    sleep 3
 }
 
 # 函数：检查节点状态
@@ -114,25 +133,33 @@ start_node "robot_state_publisher" "ros2 launch cleaning_robot_description robot
 echo "2. 启动N10P激光雷达（网络版）..."
 start_node "n10p_lidar_net" "ros2 launch lslidar_driver cleaning_robot_n10p_net.launch.py device_ip:=$LIDAR_IP host_ip:=$HOST_IP"
 
-# 3. 启动SLAM建图
-echo "3. 启动SLAM建图..."
+# 3. 启动RViz可视化
+echo "3. 启动激光雷达RViz可视化..."
+if [ -f real_lidar_rviz.py ]; then
+    start_node "real_lidar_rviz" "python3 real_lidar_rviz.py"
+else
+    echo "⚠️  real_lidar_rviz.py 文件未找到，跳过RViz启动"
+fi
+
+# 4. 启动SLAM建图
+echo "4. 启动SLAM建图..."
 start_node "slam_toolbox" "ros2 launch slam_toolbox online_async_launch.py params_file:=src/cleaning_robot_slam/config/cleaning_robot_slam_params.yaml use_sim_time:=false"
 
-# 4. 启动导航系统
-echo "4. 启动导航系统..."
+# 5. 启动导航系统
+echo "5. 启动导航系统..."
 start_node "navigation2" "ros2 launch nav2_bringup navigation_launch.py use_sim_time:=false"
 
-# 5. 启动清扫控制器
-echo "5. 启动清扫控制器..."
+# 6. 启动清扫控制器
+echo "6. 启动清扫控制器..."
 start_node "cleaning_controller" "ros2 run cleaning_robot_control cleaning_controller_node"
 
-# 6. 启动立体视觉处理
-echo "6. 启动立体视觉..."
+# 7. 启动立体视觉处理
+echo "7. 启动立体视觉..."
 start_node "stereo_processor" "ros2 run cleaning_robot_perception stereo_processor_node"
 
 echo ""
 echo "⏳ 等待所有节点启动完成..."
-sleep 10
+sleep 15
 
 echo ""
 echo "🔍 检查节点状态..."

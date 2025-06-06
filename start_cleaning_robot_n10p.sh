@@ -8,7 +8,7 @@ echo "=================================="
 
 # 设置环境变量
 export ROS_DOMAIN_ID=0
-export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp
+# export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp  # 注释掉错误的RMW配置，使用默认的
 
 # 检查ROS2环境
 if [ -z "$ROS_DISTRO" ]; then
