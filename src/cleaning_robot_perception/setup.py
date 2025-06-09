@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'stereo_processor = cleaning_robot_perception.stereo_processor:main',
+            'depth_camera_processor_node = cleaning_robot_perception.depth_camera_processor:main',
+            'orbbec_camera_node = cleaning_robot_perception.orbbec_camera_node:main',
         ],
     },
 )
