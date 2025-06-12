@@ -15,16 +15,7 @@ echo "📦 安装系统依赖..."
 sudo apt update
 sudo apt install -y \
     libgflags-dev \
-    nlohmann-json3-dev \evadm control --reload-rules
-sudo udevadm trigger
-
-echo "✅ USB设备权限设置完成"
-
-# 将用户添加到plugdev组
-sudo usermod -a -G plugdev $USER
-
-echo "⚠️  请注销并重新登录以使组权限生效"
-echo "�� Orbbec深度相机依赖安装完成！" 
+    nlohmann-json3-dev \
     libgoogle-glog-dev \
     ros-$ROS_DISTRO-image-transport \
     ros-$ROS_DISTRO-image-publisher \
@@ -63,4 +54,13 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="2bc5", ATTR{idProduct}=="0502", MODE="0666", 
 EOF
 
 # 重新加载udev规则
-sudo ud
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+
+echo "✅ USB设备权限设置完成"
+
+# 将用户添加到plugdev组
+sudo usermod -a -G plugdev $USER
+
+echo "⚠️  请注销并重新登录以使组权限生效"
+echo "🎉 Orbbec深度相机依赖安装完成！"
