@@ -1,1 +1,1 @@
-/home/yys/cleaning_robot_ws/build/cleaning_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cleaning_robot_description
+robot_state_publisher;joint_state_publisher;xacro;gazebo_ros;rviz2;ament_lint_auto;ament_lint_common

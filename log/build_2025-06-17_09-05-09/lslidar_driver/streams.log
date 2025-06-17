@@ -1,0 +1,195 @@
+[0.110s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.689s] -- The CXX compiler identification is GNU 11.4.0
+[0.996s] -- Detecting C compiler ABI info
+[1.104s] -- Detecting C compiler ABI info - done
+[1.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.109s] -- Detecting C compile features - done
+[1.111s] -- Detecting CXX compiler ABI info
+[1.225s] -- Detecting CXX compiler ABI info - done
+[1.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.230s] -- Detecting CXX compile features
+[1.230s] -- Detecting CXX compile features - done
+[1.491s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.495s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.915s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.918s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.922s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.991s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.994s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.368s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.787s] -- Found Threads: TRUE  
+[7.845s] -- Checking for module 'eigen3'
+[7.852s] --   Found eigen3, version 3.4.0
+[7.875s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.875s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.894s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[9.406s] -- Checking for module 'flann'
+[9.418s] --   Found flann, version 1.9.1
+[9.744s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[9.744s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.779s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[9.834s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.008s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[10.009s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[10.011s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[10.377s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[10.997s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[11.026s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[11.941s] -- Found X11: /usr/include   
+[11.941s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[12.078s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[12.078s] -- Looking for gethostbyname
+[12.208s] -- Looking for gethostbyname - found
+[12.208s] -- Looking for connect
+[12.341s] -- Looking for connect - found
+[12.341s] -- Looking for remove
+[12.435s] -- Looking for remove - found
+[12.435s] -- Looking for shmat
+[12.612s] -- Looking for shmat - found
+[12.612s] -- Looking for IceConnectionNumber in ICE
+[12.738s] -- Looking for IceConnectionNumber in ICE - found
+[13.630s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[13.632s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[13.635s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[13.638s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[13.860s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[13.967s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[13.969s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[13.975s] -- Found utf8cpp: /usr/include/utf8cpp  
+[14.038s] -- Checking for module 'libusb-1.0'
+[14.047s] --   Found libusb-1.0, version 1.0.25
+[14.163s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[14.166s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[14.166s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.351s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[14.351s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.352s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[16.294s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[16.300s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.307s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[18.035s] -- Found Qhull version 8.0.2
+[19.874s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.722s] -- looking for PCL_COMMON
+[21.723s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[21.723s] -- looking for PCL_KDTREE
+[21.723s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[21.723s] -- looking for PCL_OCTREE
+[21.724s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[21.724s] -- looking for PCL_SEARCH
+[21.725s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[21.725s] -- looking for PCL_SAMPLE_CONSENSUS
+[21.738s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[21.738s] -- looking for PCL_FILTERS
+[21.738s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[21.738s] -- looking for PCL_2D
+[21.739s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[21.739s] -- looking for PCL_GEOMETRY
+[21.739s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[21.739s] -- looking for PCL_IO
+[21.739s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[21.740s] -- looking for PCL_FEATURES
+[21.740s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[21.740s] -- looking for PCL_ML
+[21.741s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[21.741s] -- looking for PCL_SEGMENTATION
+[21.742s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[21.742s] -- looking for PCL_VISUALIZATION
+[21.743s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[21.743s] -- looking for PCL_SURFACE
+[21.743s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[21.743s] -- looking for PCL_REGISTRATION
+[21.744s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[21.744s] -- looking for PCL_KEYPOINTS
+[21.745s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[21.745s] -- looking for PCL_TRACKING
+[21.746s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[21.747s] -- looking for PCL_RECOGNITION
+[21.747s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[21.747s] -- looking for PCL_STEREO
+[21.748s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[21.748s] -- looking for PCL_APPS
+[21.749s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[21.749s] -- looking for PCL_IN_HAND_SCANNER
+[21.749s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[21.750s] -- looking for PCL_MODELER
+[21.750s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[21.750s] -- looking for PCL_POINT_CLOUD_EDITOR
+[21.750s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[21.751s] -- looking for PCL_OUTOFCORE
+[21.751s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[21.752s] -- looking for PCL_PEOPLE
+[21.752s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[21.753s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[21.756s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[21.776s] -- Found lslidar_msgs: 1.2.0 (/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[21.786s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[23.109s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[23.208s] -- Configuring done
+[23.288s] -- Generating done
+[23.296s] -- Build files have been written to: /home/yys/cleaning_robot_ws/build/lslidar_driver
+[23.312s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yys/cleaning_robot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/lslidar_driver
+[23.313s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[23.351s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[23.351s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[23.351s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[23.351s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[37.998s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[39.254s] [100%] Built target lslidar_driver_node
+[39.286s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[39.301s] Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver
+[39.307s] -- Install configuration: ""
+[39.307s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch
+[39.310s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[39.310s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[39.310s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[39.310s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p_net.launch.py
+[39.310s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p.launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[39.311s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[39.312s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params
+[39.312s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[39.312s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[39.313s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[39.313s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[39.313s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/cleaning_robot_n10p.yaml
+[39.314s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[39.314s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[39.314s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[39.315s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[39.315s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[39.315s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/cleaning_robot_n10p_net.yaml
+[39.315s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[39.316s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[39.316s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[39.317s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[39.324s] -- Set runtime path of "/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[39.325s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[39.325s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[39.326s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[39.327s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[39.327s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[39.327s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[39.328s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[39.328s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.328s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.328s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[39.328s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[39.329s] -- Installing: /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[39.333s] Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver

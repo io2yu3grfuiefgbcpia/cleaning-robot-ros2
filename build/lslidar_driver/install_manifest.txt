@@ -1,6 +1,7 @@
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/cleaning_robot_n10p_net.launch.py
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
@@ -17,6 +18,7 @@
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/cleaning_robot_n10p_net.yaml
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
 /home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
 /home/yys/cleaning_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node

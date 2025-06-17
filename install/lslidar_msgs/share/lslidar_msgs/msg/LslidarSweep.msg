@@ -1,1 +1,4 @@
-/home/yys/cleaning_robot_ws/src/lslidar_msgs/msg/LslidarSweep.msg
+std_msgs/Header header
+
+# The 0th scan is at the bottom
+LslidarScan[16] scans

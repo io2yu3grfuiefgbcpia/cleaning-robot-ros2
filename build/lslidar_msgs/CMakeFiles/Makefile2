@@ -95,7 +95,7 @@ clean: CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/clean
 clean: CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/clean
-clean: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/clean
 clean: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/clean
 clean: CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean
@@ -413,36 +413,36 @@ CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir
+# Target rules for target CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_lslidar_msgs"
-.PHONY : CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all
+CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_lslidar_msgs"
+.PHONY : CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_symlink_lslidar_msgs: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/rule
-.PHONY : ament_cmake_python_symlink_lslidar_msgs
+ament_cmake_python_copy_lslidar_msgs: CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/rule
+.PHONY : ament_cmake_python_copy_lslidar_msgs
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/clean
+CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all
+CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/all: CMakeFiles/ament_cmake_python_copy_lslidar_msgs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_build_lslidar_msgs_egg"
@@ -468,9 +468,9 @@ CMakeFiles/ament_cmake_python_build_lslidar_msgs_egg.dir/clean:
 # Target rules for target CMakeFiles/lslidar_msgs__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/build.make CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/build.make CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num=10,11,12,13,14,15 "Built target lslidar_msgs__rosidl_generator_py"
@@ -496,11 +496,11 @@ CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
-CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num=39,40 "Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext"
@@ -526,11 +526,11 @@ CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
-CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num=55,56 "Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext"
@@ -556,10 +556,10 @@ CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
-CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/all
 CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/all
+CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/all: lslidar_msgs__py/CMakeFiles/lslidar_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yys/cleaning_robot_ws/build/lslidar_msgs/CMakeFiles --progress-num=23,24 "Built target lslidar_msgs__rosidl_typesupport_c__pyext"

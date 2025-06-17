@@ -1,1 +1,5 @@
-/home/yys/cleaning_robot_ws/src/lslidar_msgs/msg/LslidarPacket.msg
+# Raw Leishen LIDAR packet.
+
+builtin_interfaces/Time stamp              # packet timestamp
+uint8[2000] data        # packet contents
+

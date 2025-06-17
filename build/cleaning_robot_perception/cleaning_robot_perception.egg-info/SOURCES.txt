@@ -9,6 +9,9 @@ setup.py
 ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/top_level.txt
 ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/zip-safe
 cleaning_robot_perception/__init__.py
+cleaning_robot_perception/depth_camera_driver.py
+cleaning_robot_perception/depth_camera_processor.py
+cleaning_robot_perception/orbbec_camera_node.py
 cleaning_robot_perception/stereo_processor.py
 resource/cleaning_robot_perception
 test/test_copyright.py

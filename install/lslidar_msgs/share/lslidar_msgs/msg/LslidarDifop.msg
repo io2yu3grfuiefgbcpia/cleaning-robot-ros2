@@ -1,1 +1,2 @@
-/home/yys/cleaning_robot_ws/src/lslidar_msgs/msg/LslidarDifop.msg
+int64 temperature
+int64 rpm
