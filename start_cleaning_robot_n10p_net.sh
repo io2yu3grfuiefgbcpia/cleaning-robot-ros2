@@ -15,7 +15,7 @@ echo "正在设置ROS2环境..."
 source /opt/ros/humble/setup.bash
 
 # 确保在当前工作空间目录
-cd ~/cleaning_robot_ws/cleaning-robot-ros2
+cd ~/cleaning_robot_ws
 
 # 强制重新加载工作空间环境
 if [ -f install/setup.bash ]; then
@@ -151,7 +151,7 @@ start_node "navigation2" "ros2 launch nav2_bringup navigation_launch.py use_sim_
 
 # 6. 启动清扫控制器
 echo "6. 启动清扫控制器..."
-start_node "cleaning_controller" "ros2 run cleaning_robot_control cleaning_controller_node"
+start_node "cleaning_controller" "ros2 run cleaning_robot_control cleaning_controller"
 
 # 7. 启动立体视觉处理
 echo "7. 启动立体视觉..."
