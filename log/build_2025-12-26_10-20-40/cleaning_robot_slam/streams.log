@@ -1,0 +1,21 @@
+[2.167s] Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_slam build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/install.log --single-version-externally-managed install_data
+[2.345s] running egg_info
+[2.346s] writing ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/PKG-INFO
+[2.346s] writing dependency_links to ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/dependency_links.txt
+[2.347s] writing entry points to ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/entry_points.txt
+[2.347s] writing requirements to ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/requires.txt
+[2.347s] writing top-level names to ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/top_level.txt
+[2.348s] reading manifest file '../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/SOURCES.txt'
+[2.349s] writing manifest file '../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info/SOURCES.txt'
+[2.350s] running build
+[2.350s] running build_py
+[2.350s] running install
+[2.350s] running install_lib
+[2.351s] running install_data
+[2.351s] running install_egg_info
+[2.352s] removing '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages/cleaning_robot_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[2.353s] Copying ../../build/cleaning_robot_slam/cleaning_robot_slam.egg-info to /home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages/cleaning_robot_slam-0.0.0-py3.10.egg-info
+[2.354s] running install_scripts
+[2.372s] Installing multi_sensor_slam script to /home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/cleaning_robot_slam
+[2.372s] writing list of installed files to '/home/yys/cleaning_robot_ws/build/cleaning_robot_slam/install.log'
+[2.405s] Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_slam build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/install.log --single-version-externally-managed install_data

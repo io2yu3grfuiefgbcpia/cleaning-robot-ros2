@@ -1,0 +1,4 @@
+Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs
+Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'simple_odom_publisher = cleaning_robot_navigation.simple_odom_publisher:main',
         ],
     },
 )

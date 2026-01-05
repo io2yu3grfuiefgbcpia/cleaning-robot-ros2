@@ -1,0 +1,23 @@
+[2.154s] Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_perception build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/install.log --single-version-externally-managed install_data
+[2.342s] running egg_info
+[2.342s] writing ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/dependency_links.txt
+[2.343s] writing entry points to ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/entry_points.txt
+[2.344s] writing requirements to ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/requires.txt
+[2.344s] writing top-level names to ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/top_level.txt
+[2.345s] reading manifest file '../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/SOURCES.txt'
+[2.346s] writing manifest file '../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info/SOURCES.txt'
+[2.346s] running build
+[2.346s] running build_py
+[2.346s] running install
+[2.346s] running install_lib
+[2.347s] running install_data
+[2.348s] running install_egg_info
+[2.349s] removing '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages/cleaning_robot_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[2.349s] Copying ../../build/cleaning_robot_perception/cleaning_robot_perception.egg-info to /home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages/cleaning_robot_perception-0.0.0-py3.10.egg-info
+[2.351s] running install_scripts
+[2.370s] Installing depth_camera_processor_node script to /home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/cleaning_robot_perception
+[2.371s] Installing orbbec_camera_node script to /home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/cleaning_robot_perception
+[2.371s] Installing stereo_processor script to /home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/cleaning_robot_perception
+[2.371s] writing list of installed files to '/home/yys/cleaning_robot_ws/build/cleaning_robot_perception/install.log'
+[2.396s] Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_perception build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/install.log --single-version-externally-managed install_data

@@ -1,3 +1,3 @@
 [console_scripts]
-
+simple_odom_publisher = cleaning_robot_navigation.simple_odom_publisher:main
 

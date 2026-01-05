@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'cleaning_controller = cleaning_robot_control.cleaning_controller:main',
+            'cleaning_dashboard = cleaning_robot_control.cleaning_dashboard:main',
+            'keyboard_teleop = cleaning_robot_control.keyboard_teleop:main',
         ],
     },
 )

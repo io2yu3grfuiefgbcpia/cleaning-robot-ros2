@@ -1,0 +1,20 @@
+[0.817s] Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_control': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build --no-deps symlink_data --force
+[0.996s] running develop
+[1.089s] running egg_info
+[1.090s] writing cleaning_robot_control.egg-info/PKG-INFO
+[1.090s] writing dependency_links to cleaning_robot_control.egg-info/dependency_links.txt
+[1.090s] writing entry points to cleaning_robot_control.egg-info/entry_points.txt
+[1.090s] writing requirements to cleaning_robot_control.egg-info/requires.txt
+[1.090s] writing top-level names to cleaning_robot_control.egg-info/top_level.txt
+[1.091s] reading manifest file 'cleaning_robot_control.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'cleaning_robot_control.egg-info/SOURCES.txt'
+[1.092s] running build_ext
+[1.093s] Creating /home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages/cleaning-robot-control.egg-link (link to .)
+[1.093s] Installing cleaning_controller script to /home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/cleaning_robot_control
+[1.094s] Installing cleaning_dashboard script to /home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/cleaning_robot_control
+[1.094s] 
+[1.094s] Installed /home/yys/cleaning_robot_ws/build/cleaning_robot_control
+[1.094s] running symlink_data
+[1.094s] symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_control/resource/cleaning_robot_control -> /home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/ament_index/resource_index/packages
+[1.094s] symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_control/package.xml -> /home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control
+[1.126s] Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_control' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build --no-deps symlink_data --force

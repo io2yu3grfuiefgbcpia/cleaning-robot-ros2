@@ -48,7 +48,7 @@ def generate_launch_description():
         parameters=[params, {'use_sim_time': use_sim_time}]
     )
 
-    # Joint State Publisher节点
+    # Joint State Publisher节点xu
     joint_state_publisher_node = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',

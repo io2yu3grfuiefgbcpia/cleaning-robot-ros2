@@ -1,0 +1,19 @@
+[0.807s] Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build --no-deps symlink_data --force
+[0.977s] running develop
+[1.071s] running egg_info
+[1.072s] writing cleaning_robot_navigation.egg-info/PKG-INFO
+[1.072s] writing dependency_links to cleaning_robot_navigation.egg-info/dependency_links.txt
+[1.072s] writing entry points to cleaning_robot_navigation.egg-info/entry_points.txt
+[1.072s] writing requirements to cleaning_robot_navigation.egg-info/requires.txt
+[1.072s] writing top-level names to cleaning_robot_navigation.egg-info/top_level.txt
+[1.073s] reading manifest file 'cleaning_robot_navigation.egg-info/SOURCES.txt'
+[1.073s] writing manifest file 'cleaning_robot_navigation.egg-info/SOURCES.txt'
+[1.075s] running build_ext
+[1.075s] Creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning-robot-navigation.egg-link (link to .)
+[1.075s] Installing simple_odom_publisher script to /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/cleaning_robot_navigation
+[1.076s] 
+[1.076s] Installed /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation
+[1.076s] running symlink_data
+[1.076s] symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/resource/cleaning_robot_navigation -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+[1.077s] symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/package.xml -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation
+[1.106s] Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build --no-deps symlink_data --force

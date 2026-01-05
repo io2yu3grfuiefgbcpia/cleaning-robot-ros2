@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing cleaning_robot_navigation.egg-info/PKG-INFO
+writing dependency_links to cleaning_robot_navigation.egg-info/dependency_links.txt
+writing entry points to cleaning_robot_navigation.egg-info/entry_points.txt
+writing requirements to cleaning_robot_navigation.egg-info/requires.txt
+writing top-level names to cleaning_robot_navigation.egg-info/top_level.txt
+reading manifest file 'cleaning_robot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'cleaning_robot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages/cleaning-robot-navigation.egg-link (link to .)
+Installing simple_odom_publisher script to /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/cleaning_robot_navigation
+
+Installed /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation
+running symlink_data
+symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/resource/cleaning_robot_navigation -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/package.xml -> /home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation

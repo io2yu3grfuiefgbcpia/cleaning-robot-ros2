@@ -51,6 +51,40 @@
     └── rviz_visualization (可视化界面)
 ```
 
+## 📦 项目结构
+
+```
+cleaning_robot_ws/
+├── src/                          # ROS2源代码包
+│   ├── cleaning_robot_description/    # 机器人URDF模型和Gazebo仿真
+│   ├── cleaning_robot_perception/     # 双目视觉感知系统
+│   ├── cleaning_robot_slam/           # 多传感器SLAM算法
+│   ├── cleaning_robot_control/        # 清扫控制算法
+│   ├── cleaning_robot_navigation/     # 导航和路径规划
+│   ├── lslidar_driver/                # 镭神N10P激光雷达驱动
+│   └── lslidar_msgs/                  # 激光雷达消息定义
+├── scripts/                      # 工具脚本目录
+│   ├── launch/                    # 启动脚本
+│   │   ├── start_cleaning_robot_n10p_net.sh    # N10P网络版启动
+│   │   ├── start_cleaning_robot_n10p.sh         # N10P串口版启动
+│   │   ├── start_cleaning_robot_orbbec.sh       # Orbbec相机版启动
+│   │   └── start_cleaning_robot.sh              # 通用启动脚本
+│   ├── setup/                     # 安装和配置脚本
+│   │   ├── setup_ros2_complete.sh               # ROS2完整环境安装
+│   │   ├── setup_lslidar_serial.sh              # 激光雷达串口配置
+│   │   └── install_orbbec_dependencies.sh        # Orbbec相机依赖安装
+│   ├── diagnostic/                # 诊断工具
+│   │   └── diagnose_n10p_network.sh             # 网络诊断工具
+│   └── utils/                     # 实用工具
+│       ├── start_lidar_viz.sh                   # 激光雷达可视化
+│       ├── demo_n10p_complete.sh                # 完整功能演示
+│       └── sync_remote_code.sh                  # 代码同步工具
+├── start.sh                       # 主启动脚本（交互式菜单）
+├── build/                         # 编译输出目录
+├── install/                       # 安装目录
+└── log/                           # 日志目录
+```
+
 ## 📦 包结构
 
 - `cleaning_robot_description/` - 机器人URDF模型和Gazebo仿真
@@ -74,11 +108,11 @@
 ### 1. 安装依赖
 
 ```bash
-# 运行网络修复脚本（如果apt更新失败）
-./fix_wsl_network.sh
+# 安装ROS2完整环境（推荐）
+./scripts/setup/setup_ros2_complete.sh
 
-# 安装ROS2和相关包
-./install_ros2.sh
+# 或者使用快速启动菜单
+./start.sh
 ```
 
 ### 2. 编译项目
@@ -100,7 +134,7 @@ source install/setup.bash
 
 ```bash
 # 配置激光雷达串口权限
-./setup_lslidar_serial.sh
+./scripts/setup/setup_lslidar_serial.sh
 
 # 检查设备连接
 ls -la /dev/ttyUSB*  # 激光雷达和电机控制器
@@ -117,7 +151,7 @@ sudo ip addr add 192.168.1.102/24 dev eth0
 ping 192.168.1.200  # 默认激光雷达IP
 
 # 3. 运行网络诊断
-./diagnose_n10p_network.sh
+./scripts/diagnostic/diagnose_n10p_network.sh
 ```
 
 **网络版配置参数:**
@@ -128,21 +162,28 @@ ping 192.168.1.200  # 默认激光雷达IP
 
 ### 4. 启动系统
 
-#### 方式1: 网络版N10P（推荐）
+#### 方式1: 使用主启动脚本（推荐）
+
+```bash
+# 使用交互式菜单启动系统
+./start.sh
+```
+
+#### 方式2: 直接启动网络版N10P（推荐）
 
 ```bash
 # 启动完整的N10P网络版系统
-./start_cleaning_robot_n10p_net.sh
+./scripts/launch/start_cleaning_robot_n10p_net.sh
 
 # 或者指定自定义IP
-LIDAR_IP=192.168.1.200 HOST_IP=192.168.1.102 ./start_cleaning_robot_n10p_net.sh
+LIDAR_IP=192.168.1.200 HOST_IP=192.168.1.102 ./scripts/launch/start_cleaning_robot_n10p_net.sh
 ```
 
-#### 方式2: 串口版N10P
+#### 方式3: 直接启动串口版N10P
 
 ```bash
 # 启动完整的N10P串口版系统
-./start_cleaning_robot_n10p.sh
+./scripts/launch/start_cleaning_robot_n10p.sh
 ```
 
 #### 方式3: 仿真模式
@@ -209,7 +250,10 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard \
 
 ```bash
 # 运行交互式演示菜单（包含串口版和网络版）
-./demo_n10p_complete.sh
+./scripts/utils/demo_n10p_complete.sh
+
+# 或使用主启动脚本
+./start.sh
 ```
 
 ## 🎮 使用指南
@@ -224,13 +268,16 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard \
    ping 192.168.1.200
    
    # 运行网络诊断
-   ./diagnose_n10p_network.sh
+   ./scripts/diagnostic/diagnose_n10p_network.sh
    ```
 
 2. **启动系统**
    ```bash
    # 启动完整网络版系统
-   ./start_cleaning_robot_n10p_net.sh
+   ./scripts/launch/start_cleaning_robot_n10p_net.sh
+   
+   # 或使用主启动脚本
+   ./start.sh
    
    # 等待所有节点启动完成
    ros2 node list  # 检查节点状态
@@ -258,7 +305,10 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard \
    ls -la /dev/ttyUSB*
    
    # 启动完整串口版系统
-   ./start_cleaning_robot_n10p.sh
+   ./scripts/launch/start_cleaning_robot_n10p.sh
+   
+   # 或使用主启动脚本
+   ./start.sh
    ```
 
 2. **其他步骤与网络版相同**

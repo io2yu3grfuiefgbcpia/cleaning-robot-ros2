@@ -1,2 +1,1 @@
-# This file ensures the meshes directory is not empty
-# Add your robot mesh files (.stl, .dae, .obj, etc.) here 
+/home/yys/cleaning_robot_ws/src/cleaning_robot_description/meshes/.gitkeep

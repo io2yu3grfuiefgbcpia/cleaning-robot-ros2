@@ -1,0 +1,658 @@
+[0.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.229s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x746bd1412ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x746bd14127a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x746bd14127a0>>)
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.390s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yys/cleaning_robot_ws'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/diagnostic) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/launch) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/test) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_control) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaning_robot_control' with type 'ros.ament_python' and name 'cleaning_robot_control'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_description) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaning_robot_description' with type 'ros.ament_cmake' and name 'cleaning_robot_description'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/action) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/include) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/msg) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/src) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_msgs/srv) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_navigation) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaning_robot_navigation' with type 'ros.ament_python' and name 'cleaning_robot_navigation'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_perception) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaning_robot_perception' with type 'ros.ament_python' and name 'cleaning_robot_perception'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaning_robot_slam) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaning_robot_slam' with type 'ros.ament_python' and name 'cleaning_robot_slam'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'cleaning_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/cleaning_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/cleaning_robot_control', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/cleaning_robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'cleaning_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/cleaning_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/cleaning_robot_description', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/cleaning_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'cleaning_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'cleaning_robot_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/cleaning_robot_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cleaning_robot_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'cleaning_robot_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/cleaning_robot_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/lslidar_msgs', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/lslidar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yys/cleaning_robot_ws/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yys/cleaning_robot_ws/install/lslidar_driver', 'merge_install': False, 'path': '/home/yys/cleaning_robot_ws/src/lslidar_driver', 'symlink_install': False, 'test_result_base': None}
+[0.452s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/lslidar_msgs' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yys/cleaning_robot_ws/src/lslidar_msgs'
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_control', 'ament_prefix_path')
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_description' with build type 'ament_cmake'
+[0.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_description'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation' with build type 'ament_python'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_navigation', 'ament_prefix_path')
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/ament_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/ament_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/ament_prefix_path.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception' with build type 'ament_python'
+[0.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_perception', 'ament_prefix_path')
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/ament_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/ament_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/ament_prefix_path.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam' with build type 'ament_python'
+[0.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_slam', 'ament_prefix_path')
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/ament_prefix_path.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/ament_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/ament_prefix_path.sh'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+[0.661s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
+[1.065s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation'
+[1.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception'
+[1.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam'
+[1.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': /usr/bin/cmake /home/yys/cleaning_robot_ws/src/cleaning_robot_description -DCMAKE_INSTALL_PREFIX=/home/yys/cleaning_robot_ws/install/cleaning_robot_description
+[1.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/cleaning_robot_description -- -j16 -l16
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/cleaning_robot_description -- -j16 -l16
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/cleaning_robot_description
+[2.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_description)
+[2.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_description' returned '0': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/cleaning_robot_description
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description' for CMake module files
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description' for CMake config files
+[2.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_description', 'cmake_prefix_path')
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.sh'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/lib/pkgconfig/cleaning_robot_description.pc'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/lib/python3.10/site-packages'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/bin'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.ps1'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.sh'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.bash'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.zsh'
+[2.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/colcon-core/packages/cleaning_robot_description)
+[2.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_description)
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description' for CMake module files
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description' for CMake config files
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_description', 'cmake_prefix_path')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/hook/cmake_prefix_path.sh'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/lib/pkgconfig/cleaning_robot_description.pc'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/lib/python3.10/site-packages'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.sh'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.bash'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/cleaning_robot_description/package.zsh'
+[2.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_description/share/colcon-core/packages/cleaning_robot_description)
+[2.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_perception build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/install.log --single-version-externally-managed install_data
+[2.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build
+[2.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_control': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build
+[2.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_slam build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/install.log --single-version-externally-managed install_data
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception' for CMake module files
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_perception' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_perception build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_perception/install.log --single-version-externally-managed install_data
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception' for CMake config files
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/bin'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/pkgconfig/cleaning_robot_perception.pc'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/lib/python3.10/site-packages'
+[2.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_perception', 'pythonpath')
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/pythonpath.ps1'
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/pythonpath.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/hook/pythonpath.sh'
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/bin'
+[2.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_perception)
+[2.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/package.ps1'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/package.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/package.sh'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/package.bash'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/cleaning_robot_perception/package.zsh'
+[2.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_perception/share/colcon-core/packages/cleaning_robot_perception)
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam' for CMake module files
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam' for CMake config files
+[2.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_slam' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_slam build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_slam/install.log --single-version-externally-managed install_data
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/bin'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/pkgconfig/cleaning_robot_slam.pc'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/lib/python3.10/site-packages'
+[2.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_slam', 'pythonpath')
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/pythonpath.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/pythonpath.dsv'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/hook/pythonpath.sh'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/bin'
+[2.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_slam)
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/package.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/package.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/package.sh'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/package.bash'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/cleaning_robot_slam/package.zsh'
+[2.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_slam/share/colcon-core/packages/cleaning_robot_slam)
+[2.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_navigation build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/install.log --single-version-externally-managed install_data --force
+[2.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/cleaning_robot_control' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build
+[2.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_control build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_control/install.log --single-version-externally-managed install_data --force
+[3.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_msgs -- -j16 -l16
+[3.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation' for CMake module files
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_navigation' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_navigation build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_navigation/install.log --single-version-externally-managed install_data --force
+[3.168s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation' for CMake config files
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/bin'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/pkgconfig/cleaning_robot_navigation.pc'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/lib/python3.10/site-packages'
+[3.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_navigation', 'pythonpath')
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/pythonpath.ps1'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/pythonpath.dsv'
+[3.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/hook/pythonpath.sh'
+[3.172s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/bin'
+[3.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_navigation)
+[3.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/package.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/package.dsv'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/package.sh'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/package.bash'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/cleaning_robot_navigation/package.zsh'
+[3.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_navigation/share/colcon-core/packages/cleaning_robot_navigation)
+[3.184s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control' for CMake module files
+[3.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/src/cleaning_robot_control' returned '0': PYTHONPATH=/home/yys/cleaning_robot_ws/build/cleaning_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning_robot_control build --build-base /home/yys/cleaning_robot_ws/build/cleaning_robot_control/build install --record /home/yys/cleaning_robot_ws/build/cleaning_robot_control/install.log --single-version-externally-managed install_data --force
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control' for CMake config files
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/bin'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/pkgconfig/cleaning_robot_control.pc'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/lib/python3.10/site-packages'
+[3.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaning_robot_control', 'pythonpath')
+[3.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/pythonpath.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/pythonpath.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/hook/pythonpath.sh'
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/bin'
+[3.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaning_robot_control)
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/package.ps1'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/package.dsv'
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/package.sh'
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/package.bash'
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/cleaning_robot_control/package.zsh'
+[3.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/cleaning_robot_control/share/colcon-core/packages/cleaning_robot_control)
+[3.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs' for CMake module files
+[3.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_msgs' returned '0': /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_msgs
+[3.204s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs' for CMake config files
+[3.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[3.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib'
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/bin'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/python3.10/site-packages'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/bin'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[3.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[3.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs' for CMake module files
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs' for CMake config files
+[3.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib'
+[3.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[3.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib/python3.10/site-packages'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_msgs/bin'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[3.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[3.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yys/cleaning_robot_ws/src/lslidar_driver' with build type 'ament_cmake'
+[3.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yys/cleaning_robot_ws/src/lslidar_driver'
+[3.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[15.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/yys/cleaning_robot_ws/build/lslidar_driver -- -j16 -l16
+[15.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yys/cleaning_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver
+[15.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[15.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yys/cleaning_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs CMAKE_PREFIX_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/lib PYTHONPATH=/home/yys/cleaning_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/yys/cleaning_robot_ws/build/lslidar_driver
+[15.190s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver' for CMake module files
+[15.191s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver' for CMake config files
+[15.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[15.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[15.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[15.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[15.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib'
+[15.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/bin'
+[15.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[15.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/python3.10/site-packages'
+[15.192s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/bin'
+[15.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[15.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[15.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.sh'
+[15.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.bash'
+[15.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[15.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[15.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[15.194s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver' for CMake module files
+[15.195s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver' for CMake config files
+[15.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[15.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[15.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[15.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/bin'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/lib/python3.10/site-packages'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/yys/cleaning_robot_ws/install/lslidar_driver/bin'
+[15.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[15.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[15.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.sh'
+[15.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.bash'
+[15.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/yys/cleaning_robot_ws/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[15.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yys/cleaning_robot_ws/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[15.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.276s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.276s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[15.277s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yys/cleaning_robot_ws/install/local_setup.ps1'
+[15.279s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yys/cleaning_robot_ws/install/_local_setup_util_ps1.py'
+[15.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yys/cleaning_robot_ws/install/setup.ps1'
+[15.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yys/cleaning_robot_ws/install/local_setup.sh'
+[15.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yys/cleaning_robot_ws/install/_local_setup_util_sh.py'
+[15.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yys/cleaning_robot_ws/install/setup.sh'
+[15.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yys/cleaning_robot_ws/install/local_setup.bash'
+[15.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yys/cleaning_robot_ws/install/setup.bash'
+[15.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yys/cleaning_robot_ws/install/local_setup.zsh'
+[15.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yys/cleaning_robot_ws/install/setup.zsh'

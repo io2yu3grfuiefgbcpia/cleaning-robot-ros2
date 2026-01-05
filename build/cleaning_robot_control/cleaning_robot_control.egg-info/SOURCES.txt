@@ -10,6 +10,8 @@ setup.py
 ../../build/cleaning_robot_control/cleaning_robot_control.egg-info/zip-safe
 cleaning_robot_control/__init__.py
 cleaning_robot_control/cleaning_controller.py
+cleaning_robot_control/cleaning_dashboard.py
+cleaning_robot_control/keyboard_teleop.py
 resource/cleaning_robot_control
 test/test_copyright.py
 test/test_flake8.py

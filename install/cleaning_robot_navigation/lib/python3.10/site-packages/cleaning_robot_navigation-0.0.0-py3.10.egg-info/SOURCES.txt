@@ -9,6 +9,7 @@ setup.py
 ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/top_level.txt
 ../../build/cleaning_robot_navigation/cleaning_robot_navigation.egg-info/zip-safe
 cleaning_robot_navigation/__init__.py
+cleaning_robot_navigation/simple_odom_publisher.py
 resource/cleaning_robot_navigation
 test/test_copyright.py
 test/test_flake8.py
