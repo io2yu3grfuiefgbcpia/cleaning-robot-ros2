@@ -3,7 +3,7 @@
 import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch.conditions import IfCondition
+from launch.conditions import IfCondition, UnlessCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
@@ -30,6 +30,7 @@ def generate_launch_description():
     # 启动参数
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     use_rviz = LaunchConfiguration('use_rviz', default='true')
+    use_scan_matcher = LaunchConfiguration('use_scan_matcher', default='false')
     device_ip = LaunchConfiguration('device_ip', default='192.168.1.200')
     host_ip = LaunchConfiguration('host_ip', default='192.168.1.102')
     
@@ -43,6 +44,11 @@ def generate_launch_description():
         'use_rviz',
         default_value='true',
         description='Whether to start RVIZ')
+
+    declare_use_scan_matcher_cmd = DeclareLaunchArgument(
+        'use_scan_matcher',
+        default_value='false',
+        description='Use laser_scan_matcher if it is installed')
     
     declare_device_ip_cmd = DeclareLaunchArgument(
         'device_ip',
@@ -105,26 +111,35 @@ def generate_launch_description():
         name='static_transform_publisher_laser',
         arguments=['0', '0', '0', '0', '0', '0', 'lidar_link', 'laser']
     )
+
+    # 简单里程计发布器 - 默认使用，避免系统缺少laser_scan_matcher时无法启动
+    simple_odom_publisher_node = Node(
+        package='cleaning_robot_navigation',
+        executable='simple_odom_publisher',
+        name='simple_odom_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}],
+        condition=UnlessCondition(use_scan_matcher)
+    )
     
     # 激光扫描匹配器 - 用于里程计估计
     laser_scan_matcher_node = Node(
-        package='laser_scan_matcher',
-        executable='laser_scan_matcher_node',
+        package='ros2_laser_scan_matcher',
+        executable='laser_scan_matcher',
         name='laser_scan_matcher_node',
         output='screen',
+        condition=IfCondition(use_scan_matcher),
         parameters=[{
             'use_sim_time': use_sim_time,
             'base_frame': 'base_link',
-            'fixed_frame': 'odom',
-            'use_alpha_beta': False,
-            'use_odom': False,
-            'use_vel': False,
+            'odom_frame': 'odom',
+            'map_frame': 'map',
+            'laser_frame': 'lidar_link',
+            'publish_odom': '/odom',
             'publish_tf': True,
-            'publish_pose': True
         }],
         remappings=[
-            ('/scan', '/cleaning_robot/scan'),
-            ('/pose_with_covariance_stamped', '/cleaning_robot/pose')
+            ('scan', '/cleaning_robot/scan')
         ]
     )
     
@@ -177,6 +192,7 @@ def generate_launch_description():
     # 添加声明的参数
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_use_rviz_cmd)
+    ld.add_action(declare_use_scan_matcher_cmd)
     ld.add_action(declare_device_ip_cmd)
     ld.add_action(declare_host_ip_cmd)
     
@@ -185,6 +201,7 @@ def generate_launch_description():
     ld.add_action(joint_state_publisher_node)
     ld.add_action(static_tf_laser)
     ld.add_action(n10p_driver_node)
+    ld.add_action(simple_odom_publisher_node)
     ld.add_action(laser_scan_matcher_node)
     ld.add_action(slam_toolbox_node)
     ld.add_action(rviz_node)
