@@ -1,0 +1,23 @@
+gemini2_camera_node:
+  ros__parameters:
+    # auto tries pyorbbec -> OpenCV OBSENSOR -> plain UVC.
+    backend: "auto"
+    stream: "color"
+
+    # On many Orange Pi images the Orbbec color node is not /dev/video0.
+    # Use v4l2-ctl --list-devices and set either device_id or device_path.
+    device_id: 0
+    device_path: ""
+
+    color_width: 640
+    color_height: 480
+    color_fps: 15
+    jpeg_quality: 70
+
+    frame_id: "gemini2_color_optical_frame"
+    image_topic: "/cleaning_robot/gemini2/image_raw"
+    compat_image_topic: "/cleaning_robot/camera/left/image_raw"
+    camera_info_topic: "/cleaning_robot/gemini2/camera_info"
+    publish_compressed: false
+    compressed_topic: "/cleaning_robot/gemini2/image_raw/compressed"
+    open_retry_sec: 3.0

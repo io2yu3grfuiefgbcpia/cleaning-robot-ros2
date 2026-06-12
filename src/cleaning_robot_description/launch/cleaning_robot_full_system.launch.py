@@ -38,6 +38,8 @@ def generate_launch_description():
     # 包路径
     pkg_description = get_package_share_directory('cleaning_robot_description')
     pkg_navigation = get_package_share_directory('cleaning_robot_navigation')
+    pkg_control = get_package_share_directory('cleaning_robot_control')
+    pkg_perception = get_package_share_directory('cleaning_robot_perception')
     
     # URDF文件处理
     urdf_file = os.path.join(pkg_description, 'urdf', 'cleaning_robot.urdf.xacro')
@@ -69,7 +71,11 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     use_rviz = LaunchConfiguration('use_rviz')
     use_dashboard = LaunchConfiguration('use_dashboard')
+    use_gemini2 = LaunchConfiguration('use_gemini2')
+    use_hardware_motors = LaunchConfiguration('use_hardware_motors')
     lidar_type = LaunchConfiguration('lidar_type')
+    gemini2_config_file = LaunchConfiguration('gemini2_config_file')
+    motor_config_file = LaunchConfiguration('motor_config_file')
     
     # 声明参数
     declare_use_sim_time = DeclareLaunchArgument(
@@ -86,11 +92,33 @@ def generate_launch_description():
         'use_dashboard',
         default_value='false',
         description='启动控制面板')
+
+    declare_use_gemini2 = DeclareLaunchArgument(
+        'use_gemini2',
+        default_value='false',
+        description='启动Gemini2直接采集节点')
+
+    declare_use_hardware_motors = DeclareLaunchArgument(
+        'use_hardware_motors',
+        default_value='false',
+        description='启动香橙派GPIO履带电机驱动节点')
     
     declare_lidar_type = DeclareLaunchArgument(
         'lidar_type',
         default_value='n10p_net',
         description='激光雷达类型: n10p_net, n10p_serial, simulated')
+
+    declare_gemini2_config_file = DeclareLaunchArgument(
+        'gemini2_config_file',
+        default_value=os.path.join(
+            pkg_perception, 'config', 'gemini2_camera.yaml'),
+        description='Gemini2相机配置文件')
+
+    declare_motor_config_file = DeclareLaunchArgument(
+        'motor_config_file',
+        default_value=os.path.join(
+            pkg_control, 'config', 'track_motor_driver.yaml'),
+        description='履带电机驱动配置文件')
     
     # 1. 机器人状态发布器
     robot_state_publisher = Node(
@@ -130,18 +158,11 @@ def generate_launch_description():
         arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom']
     )
     
-    static_tf_base_lidar = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_tf_base_lidar',
-        arguments=['0', '0', '0.15', '0', '0', '0', 'base_link', 'lidar_link']
-    )
-    
     static_tf_base_laser = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_tf_base_laser',
-        arguments=['0', '0', '0.15', '0', '0', '0', 'base_link', 'laser']
+        arguments=['0', '0', '0', '0', '0', '0', 'lidar_link', 'laser']
     )
     
     # 5. N10P激光雷达驱动（网络版）
@@ -216,6 +237,19 @@ def generate_launch_description():
             'focal_length': 500.0
         }]
     )
+
+    # 7b. Gemini2直接采集节点（适合香橙派上没有ROS相机驱动时使用）
+    gemini2_camera = Node(
+        package='cleaning_robot_perception',
+        executable='gemini2_camera_node',
+        name='gemini2_camera_node',
+        output='screen',
+        parameters=[
+            gemini2_config_file,
+            {'use_sim_time': use_sim_time}
+        ],
+        condition=IfCondition(use_gemini2)
+    )
     
     # 8. 清扫控制器
     cleaning_controller = Node(
@@ -231,6 +265,16 @@ def generate_launch_description():
             'obstacle_distance': 0.5,
             'goal_tolerance': 0.1
         }]
+    )
+
+    # 8b. 真实履带电机驱动（默认关闭，香橙派实车时启用）
+    track_motor_driver = Node(
+        package='cleaning_robot_control',
+        executable='track_motor_driver',
+        name='track_motor_driver',
+        output='screen',
+        parameters=[motor_config_file],
+        condition=IfCondition(use_hardware_motors)
     )
     
     # 9. RViz2可视化
@@ -266,15 +310,19 @@ def generate_launch_description():
     ld.add_action(declare_use_sim_time)
     ld.add_action(declare_use_rviz)
     ld.add_action(declare_use_dashboard)
+    ld.add_action(declare_use_gemini2)
+    ld.add_action(declare_use_hardware_motors)
     ld.add_action(declare_lidar_type)
+    ld.add_action(declare_gemini2_config_file)
+    ld.add_action(declare_motor_config_file)
     
     # 添加节点（按顺序）
     ld.add_action(robot_state_publisher)
     ld.add_action(joint_state_publisher)
     ld.add_action(static_tf_map_odom)
-    ld.add_action(static_tf_base_lidar)
     ld.add_action(static_tf_base_laser)
     ld.add_action(odom_publisher)
+    ld.add_action(track_motor_driver)
     ld.add_action(lidar_driver)
     
     # 延迟启动SLAM（等待TF就绪）
@@ -282,9 +330,9 @@ def generate_launch_description():
     
     # 延迟启动其他节点
     ld.add_action(TimerAction(period=3.0, actions=[stereo_processor]))
+    ld.add_action(TimerAction(period=3.0, actions=[gemini2_camera]))
     ld.add_action(TimerAction(period=3.0, actions=[cleaning_controller]))
     ld.add_action(TimerAction(period=4.0, actions=[rviz_node]))
     ld.add_action(dashboard_node)
     
     return ld
-

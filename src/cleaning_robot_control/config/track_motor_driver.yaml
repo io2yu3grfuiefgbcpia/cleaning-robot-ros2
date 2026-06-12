@@ -1,0 +1,36 @@
+track_motor_driver:
+  ros__parameters:
+    cmd_vel_topic: "/cleaning_robot/cmd_vel"
+    extra_cmd_vel_topic: "/cmd_vel"
+
+    # Motion model. Tune these after the robot can move safely on blocks.
+    max_linear_speed: 0.5
+    max_angular_speed: 1.5
+    wheel_base: 0.15
+    command_timeout_sec: 0.5
+    invert_left: false
+    invert_right: false
+    left_trim: 1.0
+    right_trim: 1.0
+
+    # Keep true on the VM. Set false on the Orange Pi after wiring is checked.
+    mock: true
+    pin_mode: "board"
+
+    # ZK-5AD/TA6586 style: one direction line plus one PWM/brake line.
+    driver: "pwm_brake"
+    left_dir: 12
+    left_pwm: 15
+    right_dir: 22
+    right_pwm: 26
+
+    # L298N alternative. Used only when driver is "l298n".
+    left_in1: 12
+    left_in2: 15
+    left_en: 7
+    right_in1: 22
+    right_in2: 26
+    right_en: 11
+
+    pwm_freq: 1000
+    max_duty: 80
