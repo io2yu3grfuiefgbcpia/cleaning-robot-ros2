@@ -9,6 +9,7 @@ from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from ament_index_python.packages import get_package_share_directory
+import xacro
 
 def generate_launch_description():
     # 包路径
@@ -17,7 +18,7 @@ def generate_launch_description():
     lslidar_driver_dir = FindPackageShare(package='lslidar_driver').find('lslidar_driver')
     
     # 配置文件路径
-    urdf_file = os.path.join(cleaning_robot_description_dir, 'urdf', 'cleaning_robot.urdf')
+    urdf_file = os.path.join(cleaning_robot_description_dir, 'urdf', 'cleaning_robot.urdf.xacro')
     rviz_config_file = os.path.join(cleaning_robot_navigation_dir, 'rviz', 'cleaning_robot_n10p.rviz')
     n10p_params_file = os.path.join(lslidar_driver_dir, 'params', 'lidar_uart_ros2', 'cleaning_robot_n10p.yaml')
     
@@ -36,9 +37,8 @@ def generate_launch_description():
         default_value='true',
         description='Whether to start RVIZ')
     
-    # 读取URDF文件
-    with open(urdf_file, 'r') as infp:
-        robot_desc = infp.read()
+    # 处理xacro文件
+    robot_desc = xacro.process_file(urdf_file).toxml()
     
     # Robot State Publisher节点
     robot_state_publisher_node = Node(
@@ -74,20 +74,12 @@ def generate_launch_description():
         ]
     )
     
-    # 静态TF发布器 - base_link到lidar_link
-    static_tf_lidar = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_transform_publisher_lidar',
-        arguments=['0.15', '0', '0.2', '0', '0', '0', 'base_link', 'lidar_link']
-    )
-    
-    # 静态TF发布器 - base_link到laser (与某些算法兼容)
+    # 静态TF发布器 - laser作为lidar_link的兼容别名
     static_tf_laser = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_transform_publisher_laser',
-        arguments=['0.15', '0', '0.2', '0', '0', '0', 'base_link', 'laser']
+        arguments=['0', '0', '0', '0', '0', '0', 'lidar_link', 'laser']
     )
     
     # 激光扫描匹配器 - 用于里程计估计
@@ -165,7 +157,6 @@ def generate_launch_description():
     # 添加节点
     ld.add_action(robot_state_publisher_node)
     ld.add_action(joint_state_publisher_node)
-    ld.add_action(static_tf_lidar)
     ld.add_action(static_tf_laser)
     ld.add_action(n10p_driver_node)
     ld.add_action(laser_scan_matcher_node)
